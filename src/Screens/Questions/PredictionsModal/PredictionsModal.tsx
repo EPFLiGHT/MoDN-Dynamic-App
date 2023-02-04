@@ -93,7 +93,7 @@ const PredictionsModal = forwardRef<Modalize, PredictionsModalProps>((props, ref
                   color: interpolate(value),
                 }}
               >
-                {(value * 2 * 100 - 100).toFixed(2)}%
+                {(value * 2 * 100 - 100).toFixed(0)}%
               </Text>
             </View>
           ))}
