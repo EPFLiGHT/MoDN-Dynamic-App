@@ -1,0 +1,1118 @@
+{
+  "a54crp122categorical": {
+    "title": "CRP",
+    "description": "\"CRP is a marker of inflammation that sometimes helps to distinguish between a viral and bacterial disease.\n\nIn ePOCT+ it is proposed in some children with an acute respiratory illnesses, osteomyelitis and septic arthritis, and in children with fever without an obvious source.\n\nIf the CRP is low it is unlikely to be bacterial, and the child does not need antibiotics.\nIf the CRP is high it will more likely be a bacterial illness, meaning an antibiotic is needed.\n\nCRP TEST INSTRUCTIONS (see specific SOP)\n-        Take 10micoL blood from finger prick and drop it into the Specimen Dilution Buffer tube\n-        Mix the sample into the buffer by inverting the tube upside down 10-15 times until you see no visible whole blood in the capillary.\n-        Place the dipstick yellow dip area (the lower end of the dipstick) into the diluted sample and hold it there until you see the liquid front enter the result area. Remove the dipstick from the solution and place it in a horizontal position.\n\nINTERPRETATION:\n-        Read results within 5 minutes. Do not pay attention to any lines appearing later than 5 minutes. \n-        The red (control) line confirms the correct performance of the test.\n-        If, in addition to the red control line there are\no        no blue lines, the serum CRP concentration of the sample is <10 mg/l\no        one blue line, the serum CRP concentration is 10-40 mg/l\no        two blue lines, the serum CRP concentration is 40-80 mg/l\no        three blue lines, the serum CRP concentration is >80 mg/l\n-        If the red (control) line does not appear, the test is invalid and the test must be performed again.\n-        Document the results of the test as per usual health facility procedures with the result CRP <10mg/l, CRP 10-40mg/l, or CRP >40- <79mg/l, or >80mg/l\"",
+    "type": "radio",
+    "choices": {
+      "0": ">= 10 < 40 mg/L",
+      "1": ">= 40 < 80 mg/L",
+      "2": "< 10 mg/L",
+      "3": ">= 80 mg/L"
+    },
+    "sort": ["2", "0", "1", "3"],
+    "category": "Assessment/Test",
+    "reference": "A54",
+    "refId": "122"
+  },
+  "a55urinaryanalysis224": {
+    "title": "Urinary analysis",
+    "description": "COLLECTION INSTRUCTION: \n•The patient should be instructed to collect fresh middle streaming urine and fill at least half of the collection container.\n\nIf possible use urine dipstick, urine microscopy is prone to error.\n\nINTERPRETATION:\nPathologic test (Positive) = \n>=10 leukocytes/mm3 in un-centrifuged sample\nOR\n>= 5 leukocytes/mm3 high-power field in centrifuged sample\nOR\nPositive leukocyte esterase and nitrite\n\nNormal test: \n<10 leukocytes/mm3 in un-centrifuged sample\nOR\n< 5 leukocytes/mm3 high-power field in centrifuged sample\nOR\nNegative leukocyte esterase and nitrite",
+    "type": "radio",
+    "choices": {
+      "0": "Normal",
+      "1": "Pathologic"
+    },
+    "category": "Assessment/Test",
+    "reference": "A55",
+    "refId": "224"
+  },
+  "a58hivrapidtestofchildinfant444c": {
+    "title": "HIV rapid test of child/infant",
+    "description": "Be sure to ask consent before testing. If the child does not have the capacity to consent to test, be sure to get the consent from the legal guardian.\n\n**Follow normal health facility procedures** \n\nBellow are suggested guidance in the case that normal health facility procedures are not clear:\n\nTEST PROCEDURE:\n·        Apply 10μl of serum or plasma (or 20μl whole blood) to the sample pad “S”\nof SD Bioline HIV-1/2 3.0 rapid test\nand add 4 drops of the assay diluent. \n·        Interpret the results within 20 minutes.\n·        For confirmatory testing use Uni-Gold™ rapid test. For children < 18 month, PCR is going to be\nperformed to confirm the HIV status and for children with age > 19 month, ELISA is going to be used.\n\nINTERPRETATION:\n\n POSITIVE\n(two bars): Red bars appear in both the control window\n(labeled “C”) and the patient window (labeled “1 and 2”) of the strip. The test result is positive even if the patient bar\nappears lighter or darker than the control bar.\n\nNEGATIVE\n(one bar): One red bar\nappears in the control window of the strip (labelled \"C\") and no red\nbar appears in the patient window of the strip (labelled \"T\").\n\nINVALID\n(no bar): If there is no\nred bar in the control window of the strip, and even if a red bar appears in\nthe patient window of the strip, the result is invalid and should be\nrepeated.  If it is still invalid don’t\nuse the whole box of test kits from which the kit used was taken off.",
+    "type": "radio",
+    "choices": {
+      "0": "Negative",
+      "1": "Positive"
+    },
+    "category": "Assessment/Test",
+    "reference": "A58",
+    "refId": "444"
+  },
+  "a70hemoglobingdl3409categorical": {
+    "title": "Hemoglobin (g/dL)",
+    "description": "**Follow normal health facility procedures** Below are suggested guidance in the case that normal health facility procedures are not clear: Test procedure: · Puncture the middle or ring finger using a lancet and fill the microcuvette in one continuous process. Do NOT refill and avoid bubbles · Place the filled microcuvette in the cuvette holder and slide the holder to the measuring position. · After 15-60 seconds read the haemoglobin value displayed. ** The Hemocue Hb 201+ system should be verified routinely using commercially available haematology controls",
+    "type": "radio",
+    "choices": {
+      "0": "< 6 g/dL",
+      "1": ">= 6 < 10 g/dL",
+      "2": ">= 10 < 11 g/dL",
+      "3": ">= 11 < 11.5 g/dL",
+      "4": ">= 11.5 < 12 g/dL",
+      "5": ">= 12 g/dL"
+    },
+    "category": "Assessment/Test",
+    "reference": "A70",
+    "refId": "3409"
+  },
+  "a72observebreastfeedingattaching": {
+    "title": "Observe breastfeeding: Attaching well to breast?",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Assessment/Test",
+    "reference": "A72",
+    "refId": "3469"
+  },
+  "a75appetitetest3487": {
+    "title": "Appetite test",
+    "description": "Provide Ready-to-Use Therapeutic Food (RUTF) or equivalent to eat at the consultation:\n    FAIL: The child fails the appetite test, he/she cannot finish the RUTF portion or equivalent\n    PASS: The child passes the appetite test, he/she can finish the RUTF portion or equivalent\n    Child too sick to perform test: If the child is too sick to perform the test, it will be considered equivalent to failing the test.\n    Not available: RUTF or equivalent is not available, considered as pass",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Assessment/Test",
+    "reference": "A75",
+    "refId": "3487"
+  },
+  "a82stoolmicroscopy3821categorica": {
+    "title": "Stool microscopy",
+    "type": "radio",
+    "choices": {
+      "0": "Other",
+      "1": "Ova",
+      "2": "Trophozoites / Cysts",
+      "3": "Normal"
+    },
+    "category": "Assessment/Test",
+    "reference": "A82",
+    "refId": "3821"
+  },
+  "a89oralfluidtest22740": {
+    "title": "Oral Fluid Test",
+    "description": "LOOK TO SEE HOW THE CHILD DRINKS\nAsk the caretaker to offer the child some water in a cup or spoon. Watch the child drink. \n\nFAIL: The child is not able to suck or swallow when offered a drink, vomits immediately, or drinks poorly (is weak and cannot drink without help or encouragement)\n\nPASS: The child drinks eagerly and acts thirsty. It is clear that the child wants to drink. The child reaches out for the cup or spoon when offered water or is unhappy if the water is taken away as s/he wants to drink more.\n\nREF IMCI 2014",
+    "type": "radio",
+    "choices": {
+      "0": "Drinks normally",
+      "1": "Drinks eagerly, thirstly",
+      "2": "Unable to perform test",
+      "3": "Drinks poorly",
+      "4": "Vomits immediately"
+    },
+    "category": "Assessment/Test",
+    "reference": "A89",
+    "refId": "22740"
+  },
+  "achildwellappearing3425": {
+    "title": "Child well appearing",
+    "description": "\"This question helps decide whether the patient with fever without source requires antibiotics.\n\nIt is a subjective assessment of the child, ideally after one hour of paracetamol if the patient has a fever during examination.\"",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Assessment/Test",
+    "reference": "A71",
+    "refId": "3425"
+  },
+  "bc131weightforagezscore7categori": {
+    "title": "Weight for age (z-score)",
+    "description": "Weight-for-age z-scores are based on the WHO Child Growth Standards:\n\nThe z-score values are:\n\n -3 or lower:  very low weight for age (severely underweight).\nBetween -2 and -3: low weight for age (moderately underweight).\n\nThe rest = NO malnutrition based on weight for age z-scores\n\n 0 = expected weight for a child this age.\n\nBetween 1 and 2; Between 2 and 3; or 3 or above = Weight is higher than the average child for this age.",
+    "type": "radio",
+    "choices": {
+      "0": "more than -2 z-score",
+      "1": "-2 z-score",
+      "2": "less than -2 z-score"
+    },
+    "category": "Background Calculation",
+    "reference": "BC7",
+    "refId": "7"
+  },
+  "bc132muacforagezscore99categoric": {
+    "title": "MUAC for age z-score",
+    "description": "**This z-score is only valid if the MUAC was measured** (Ignore if MUAC measurement was not feasible)\n\n-3 or lower = MUAC is very low for his/her age, If the child is 5 years or above, than he/she will be classified as having severe malnutrition .\n\nBetween -2 and -3 = Moderate malnutrition (only children 5 years or older)\n\nThe rest = No malnutrition based on muac for age z-scores\n\n0 = expected muac for a child this age.\n\nBetween 1 and 2; Between 2 and 3; or 3 or above = MUAC is higher than the average child for this age.\n\n\nREF:\nMUAC for age z-scores for children aged 5 and up taken from: Lazarus et al. BMJ 2017\nMUAC for age z-scores for children under 5 years are taken from the WHO Child growth Standards",
+    "type": "radio",
+    "choices": {
+      "0": "> -2 z-score",
+      "1": "-2 z-score",
+      "2": "< -2 z-score"
+    },
+    "category": "Background Calculation",
+    "reference": "BC61",
+    "refId": "99"
+  },
+  "bcaxillarytemperature2144categor": {
+    "title": "Axillary temperature",
+    "type": "radio",
+    "choices": {
+      "0": ">= 35.5 °C and < 38 °C",
+      "1": "< 35.5 °C",
+      "2": ">= 38 °C"
+    },
+    "category": "Background Calculation",
+    "reference": "BC98",
+    "refId": "2144"
+  },
+  "bdageinmonths6categorical": {
+    "title": "Age in months",
+    "type": "radio",
+    "choices": {
+      "0": "less than 2 months",
+      "1": "between 2 and 6 months",
+      "2": "between 6 and 12 months",
+      "3": "between 12 and 24 months",
+      "4": "between 24 and 36 months",
+      "5": "between 36 and 60 months",
+      "6": "more than 60 months"
+    },
+    "category": "Demographics not available in diagrams",
+    "reference": "BD6",
+    "refId": "6"
+  },
+  "cc10skinhair10": {
+    "title": "Referral for inpatient hospitalization?",
+    "description": "Select the option that you and the patient/caretaker has decided to undertake. Did you refer the patient for inpatient hospitalization?",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Referral status question",
+    "reference": "R1",
+    "refId": "3807"
+  },
+  "cc11eye11": {
+    "title": "Eye",
+    "description": "Symptoms/signs: red eye, swelling, eye trauma, eye pain, eye itching, eye discharge\nDiagnoses: Conjunctivitis, preseptal/orbital cellulitis, corneal abrasion, severe eye disease",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC11",
+    "refId": "11"
+  },
+  "cc12earthroatmouth12": {
+    "title": "Ear/Throat/Mouth",
+    "description": "Symptoms: tooth pain, ear discharge, ear pain, mouth pain, mouth lesions, sore throat, neck mass, runny nose, cheek swelling\n\nDiagnoses: Dental abscesses, tooth pain, ear infections, mastoiditis, foreign body in ear, oral ulcers, oral candidiasis, pharyngitis, lymphadenitis, lymphadenopathy, rhinitis, mumps",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC12",
+    "refId": "12"
+  },
+  "cc13respiratorycoughordifficultb": {
+    "title": "Respiratory (Cough or difficult breathing)",
+    "description": "Symptoms including: Cough, difficult breathing, stridor, barking cough, spitting blood (hemoptysis)\n\nDiagnoses include: Respiratory distress, Cough or cold, croup, pneumonia, hemoptysis, reactive airway disease, suspicion of foreign object in airways, Suspicion of TB",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC13",
+    "refId": "13"
+  },
+  "cc15genitourinaryutisti213": {
+    "title": "Genitourinary (UTI, STI)",
+    "description": "Symptoms/signs: inguinal/scrotal pain or swelling, pain or difficulty on passing urine, anal itching, Suspicion of pregnancy, very painful menstruation, penil or vaginal discharge, genital lesions, genital irritation or local pain\n\nDiagnoses: Balanitis, Vulvovaginitis, Presumed gonorrhea/chlamydia/trichomoniasis/bacterial vaginosis, Vaginal Candidiasis, Pelvic Inflammatory Disease, Presumed Primary Syphilis, Genital herpes, Lower and upper urinary tract infection, Dysmenorrhea, pregnancy, oxyuriasis, Presumed testicular torsion, Inguinal hernia",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC15",
+    "refId": "213"
+  },
+  "cc16neuroheadachestiffneckneckpa": {
+    "title": "Neuro (Headache, stiff neck, neck pain)",
+    "description": "Symptoms: Headache, stiff neck, neck pain\n\nDiagnoses: Suspicion of meningitis, non severe headache",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC16",
+    "refId": "264"
+  },
+  "cc17gastrointestinaldiarrheavomi": {
+    "title": "Gastrointestinal (diarrhea, vomiting, feeding)",
+    "description": "Symptoms/signs: diarrhea, vomiting, abdominal pain, blood in stool, trouble eating, anal itching\n\nDiagnoses: Dehydration, diarrhea, dysentery, constipation, loss of appetite, oxyuriasis, Severe abdominal condition",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC17",
+    "refId": "275"
+  },
+  "cc18accidentmuskuloskeletalinclb": {
+    "title": "Accident /Muskulo-skeletal (incl. burns, wounds, poison)",
+    "description": "Symptoms/signs: joint swelling/pain, limp, extremity pain, wound, burn, head trauma, car accident, smoke exposure, accidental ingestion of potentially harmful entity\n\nDiagnoses: Osteomyelitis, septic arthritis, limp or joint pain, wound, fracture, dislocation, contusion, burn, head injury, car accident, inhalation injury, poisoning",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC18",
+    "refId": "299"
+  },
+  "cc24respiratory3447": {
+    "title": "Respiratory",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC24",
+    "refId": "3447"
+  },
+  "cc25diarrheaabdominalgastrointes": {
+    "title": "Diarrhea, abdominal, gastro-intestinal",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC25",
+    "refId": "3454"
+  },
+  "cc26skin3456": {
+    "title": "Skin",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC26",
+    "refId": "3456"
+  },
+  "cc27eyecomplaint3459": {
+    "title": "Eye complaint",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC27",
+    "refId": "3459"
+  },
+  "cc28earormouthcomplaint3460": {
+    "title": "Ear or mouth complaint",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC28",
+    "refId": "3460"
+  },
+  "cc29feedingproblemorweightconcer": {
+    "title": "Feeding problem or weight concern",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC29",
+    "refId": "3476"
+  },
+  "cc30malformationofbirthanomaly34": {
+    "title": "Malformation of birth anomaly",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC30",
+    "refId": "3479"
+  },
+  "cc31injuriesbirthandnonbirthrela": {
+    "title": "Injuries (birth and non-birth related)",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Complaint Category",
+    "reference": "CC31",
+    "refId": "3485"
+  },
+  "cc32fever3507": {
+    "title": "Did you recommend a follow-up consultation?",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Referral status question",
+    "reference": "R3",
+    "refId": "4073"
+  },
+  "ch3hivstatusofpatient104categori": {
+    "title": "HIV status of patient",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Chronic Condition",
+    "reference": "CH3",
+    "refId": "104"
+  },
+  "dsex214categorical": {
+    "title": "Sex",
+    "type": "radio",
+    "choices": {
+      "0": "Male",
+      "1": "Female"
+    },
+    "category": "Demographics",
+    "reference": "D27",
+    "refId": "214"
+  },
+  "e46recentclosecontactwithsomebod": {
+    "title": "Recent close contact with somebody with TB",
+    "description": "Close contacts is defined as sharing airspace with somebody with infectious pulmonary tuberculosis for >15 hours a week. This must have occured within the past 12 months.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Exposure",
+    "reference": "E46",
+    "refId": "46"
+  },
+  "e78hivstatusofbiologicmother2126": {
+    "title": "HIV status of biologic mother",
+    "description": "Record if available; report if record unavailable",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Exposure",
+    "reference": "E78",
+    "refId": "2126"
+  },
+  "os116convulsingnow1685": {
+    "title": "Severe irritability",
+    "description": "Has the child been crying throughout the interview, even before you approached him/her? Is the child inconsolable by the caretaker? (Adapted from Pediatric Sepsis CoLab 2020)",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S116",
+    "refId": "354"
+  },
+  "os136oralfluidtest22742": {
+    "title": "Oral fluid test",
+    "description": "If the caregiver says that her child is not able to drink or breastfeed, or \"vomits everything\" ask her to describe what happens when she offers the child something to drink. The danger sign of 'unable to drink or breastfeed' means that the child is unable to suck or swallow ANY fluid. A child may have difficulty breastfeeding if their nose is blocked - if so, clear it and check if the child can breastfeed after. The danger sign of 'vomits everything' means that EVERYTHING that goes down comes back up. A child who vomits several times but can hold down some fluids does not have this general danger sign. If you are not sure about the caregiver’s answer, ask her to offer the child a drink of clean water (in a cup or spoon) or breast milk. LOOK TO SEE HOW THE CHILD DRINKS and choose the answer that best describes how they drink from the drop down menu.",
+    "type": "radio",
+    "choices": {
+      "0": "Drinks normally",
+      "1": "Drinks eagerly, thirstly",
+      "2": "Unable to perform test",
+      "3": "Drinks poorly",
+      "4": "Vomits immediately/everything after drinking",
+      "5": "Completely unable to drink"
+    },
+    "category": "Observed Physical Sign",
+    "reference": "OS136",
+    "refId": "22742"
+  },
+  "os3barkingcough64": {
+    "title": "Barking cough",
+    "description": "Cough that sounds like a seal or a dog. Often, the child's voice is also hoarse.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Observed Physical Sign",
+    "reference": "OS3",
+    "refId": "64"
+  },
+  "pe104pityriasisversicolor399": {
+    "title": "Pityriasis versicolor",
+    "description": "Hypo/hyperpigmented patches (most often on chest, back and arms). Not itchy.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE104",
+    "refId": "399"
+  },
+  "pe108diaperrash409": {
+    "title": "Diaper rash",
+    "description": "Hyper or hypopigmented or red rash that is often itchy in the groin/buttock area due to wet diaper that has not been changed frequently. Limited to groin, buttock, or inner thigh area.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE108",
+    "refId": "409"
+  },
+  "pe109scarletfeverrash411": {
+    "title": "Scarlet fever rash",
+    "description": "Bright red/pink or flesh or skin coloured rash that blanches with pressure, with small papules giving it a sandpaper texture (like pumice stone). It is usually located on face, neck, trunk, arms and legs; palms and soles are not involved. The spread initially starts on the neck, underarm, and groin, and then spreads over the body. The cheeks may be rosy, and a pale area around the mouth. Often associated with sore throat, abdominal pain and emesis. Typically the child presents with strawberry tongue, red tonsils with exudates or petechiae",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE109",
+    "refId": "411"
+  },
+  "pe128skinpustulesorblisters2120": {
+    "title": "Skin pustules or blisters",
+    "description": "Pustules = small pus filled vesicles",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE128",
+    "refId": "2120"
+  },
+  "pe133grunting2974": {
+    "title": "Grunting",
+    "description": "Does the child have a grunt (Short noise at each expiration) on expiration ? \nGrunting is characterized as repetitive “eh” sounds, usually short in duration, during early expiration against a partially closed glottis. Represents the child’s attempt to generate additional positive end expiratory pressure and maintain lung volume. (REF: Adapted from Pediatric Sepsis CoLab 2020 and McCollum, et al. CID, 2017)\"",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE133",
+    "refId": "2974"
+  },
+  "pe134measlesrashandassociatedsig": {
+    "title": "Measles rash and associated signs",
+    "description": "A flesh coloured, pink or dark rash begins 2 to 4 days after the start of a fever, starting behind the ears and on the neck. It spreads to the face. During the next day, the rash spreads to the rest of the body, arms and legs. After 4 to 5 days, the rash starts to fade and the skin may peel. The rash becomes more discolored (dark brown or blackish), and there is more peeling of the skin.\nA measles rash does not have vesicles (blisters) or pustules. The rash does not itch. Do not confuse measles with other common childhood rashes such as chicken pox, scabies or heat rash. \nThe rash is often associated with red eyes, runny nose or cough.\nREF Adapted from IMCI 2014",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE134",
+    "refId": "2976"
+  },
+  "pe162umbilicusredorswollen3288": {
+    "title": "Umbilicus red or swollen",
+    "description": "The skin around the umbilicus may be hard, may have a visible indentation or a visible bump/raised spot.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE162",
+    "refId": "3288"
+  },
+  "pe192patientunabletofinishsenten": {
+    "title": "Patient unable to finish sentence due to difficult breathing",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE192",
+    "refId": "3351"
+  },
+  "pe194conjunctivalpallor3361": {
+    "title": "Conjunctival pallor",
+    "description": "Conjunctivae with neither clearly red nor clearly pale anterior rims or those in which one conjunctiva is pale and the other is normal (REF Aggarwal et al. Anemia 2014)",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE194",
+    "refId": "3361"
+  },
+  "pe195palmarpallor3364": {
+    "title": "Palmar pallor",
+    "description": "LOOK at the skin of the child’s palm. Hold the child’s palm open by grasping it gently from the side. Do not stretch the fingers backwards as this may cause pallor by blocking the blood supply. If it looks pale compared to the caretaker, then palmar pallor is present. \nREF: adapted from IMCI 2014",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE195",
+    "refId": "3364"
+  },
+  "pe196severeconjunctivalpallor337": {
+    "title": "Severe conjunctival pallor",
+    "description": "Conjunctivae with very little or no evidence of red color on the anterior rim, which matches the fleshy color of the posterior aspect of the palpebral conjunctiva (REF Aggarwal et al. Anemia 2014)",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE196",
+    "refId": "3379"
+  },
+  "pe197severepalmarpallor3380": {
+    "title": "Severe palmar pallor",
+    "description": "LOOK at the skin of the child’s palm. Hold the child’s palm open by grasping it gently from the side. Do not stretch the fingers backwards as this may cause pallor by blocking the blood supply. If it looks pale compared to the caretaker, then palmar pallor is present, if it is very pale or so pale that it looks white then it is SEVERE palmar pallor. \nREF: adapted from IMCI 2014",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE197",
+    "refId": "3380"
+  },
+  "pe19stridorincalmchild19": {
+    "title": "Stridor",
+    "description": "When the child is calm and breathes in, it makes a squeaky, high-pitched noise.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE232",
+    "refId": "22757"
+  },
+  "pe201skinpinch3450": {
+    "title": "Skin pinch",
+    "description": "\"This skin pinch tests is an important tool for testing dehydration. When a child is dehydrated, the skin loses elasticity. \n\nTo assess dehydration using the skin pinch: \n1.ASK the mother to place the child on the examining table so that the child is flat on his back with his arms at his sides (not over his head) and his legs straight. Or, ask the mother to hold the child so he is lying flat on her lap.\n2.USE  YOUR  THUMB  AND  FIRST  FINGER  to  locate  the  area  on  the  child’s  abdomen halfway between the umbilicus and the side of the abdomen. Do not use your fingertips because this will cause pain. The fold of the skin should be in a line up and down the child’s body.\n3.PICK UP all the layers of skin and the tissue underneath them.\n4.     HOLD the pinch for one second. Then release it.\n5. LOOK  to  see  if  the  skin  pinch  goes  back  very  slowly  (more  than  2  seconds),  slowly (less than 2 seconds, but not immediately), or immediately. If the skin stays up for even a brief time after you release it, decide that the skin pinch goes back slowly. \n\nNOTE: The skin pinch test is not always an accurate sign. In a child with severe malnutrition, the skin may go back slowly even if the child is not dehydrated. In a child is overweight or has oedema, the skin may go back immediately even if the child is dehydrated. However you should still use it to classify the child’s dehydration. (REF IMCI 2014)",
+    "type": "radio",
+    "choices": {
+      "0": "Normal",
+      "1": "Skin pinch goes back slowly (1-2 sec)",
+      "2": "Skin pinch goes back very slowly (>2 sec)"
+    },
+    "category": "Physical Exam",
+    "reference": "PE201",
+    "refId": "3450"
+  },
+  "pe214bloodoxygensaturation3547ca": {
+    "title": "Blood oxygen saturation (%)",
+    "description": "Must be measured when infant or child is calm. Do not perform pulse oxymetry if the child is presenting with stridor (and calm).\n\nINSTRUCTIONS:\n1. Apply the pulse oximeter to a digit on the child.\n2. Ensure that there is a relatively uniform waveform (similar amplitude from one wave to another). If the child is uncooperative, try to distract the child by talking or singing.\n    a. Note: Artifactual reasons for poor waveform may include: probe improperly applied, slippage of the probe, the probe has come off of the patient, excessive movement of the patient, and poor cable connections.\n    b. Note: It is normal for there to be a smaller wave after the larger wave, as long as the pattern is regular\n3. Record the oxygen saturation and heart rate once the waveform becomes uniform.\nREF: Adapted from Sepsis CoLab",
+    "type": "radio",
+    "choices": {
+      "0": ">/=95%",
+      "1": "90-92%",
+      "2": "94-95%",
+      "3": "92-94%",
+      "4": "<90%"
+    },
+    "category": "Physical Exam",
+    "reference": "PE214",
+    "refId": "3547"
+  },
+  "pe219visiblerespiratoryratewarni": {
+    "title": "Visible respiratory rate (WARNING: visible respiratory rate not reliable)",
+    "description": "Visible respiratory rate is not very reliable, please count the respiratory rate if possible.\nIf this is really not possible, select whether the respiratory rate is visibly normal or visibly fast in relation to the age of the patient.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE219",
+    "refId": "4530"
+  },
+  "pe220identifiablesourceoffever45": {
+    "title": "Identifiable source of fever?",
+    "description": "The patient has fever, but none of the following symptoms:\n- Cough/difficult breathing\n- Diarrhea/loose stools\n- ear pain/discharge\n- dental pain/abscess\n- sore throat\n- neck mass\n- skin rash explaining the fever (chicken pox, measles, scarlet fever, cellulitis, abscess, impetigo\n- bone or joint pain suspicious of septic arthritis/ostemyelitis\n- symptoms of urinary tract infection or STI\n\nIs there an explanation for the fever?",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE220",
+    "refId": "4536"
+  },
+  "pe229somethingiswrongclinicianin": {
+    "title": "Something is wrong (Clinician instinct / gut feeling)",
+    "description": "This is a subjective impression by the clinician: Do you feel that there is something (seriously) wrong with the patient?",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE229",
+    "refId": "8775"
+  },
+  "pe50herpanginavesiculesinmouth18": {
+    "title": "Major trauma (car accident, suspicion of multiple fractures, major bleeding)",
+    "description": "Child hit by fast moving car, child run over by car, passenger in car accident in fast moving car, major fall, or other major trauma resulting in suspicion of multiple fractures, or major bleeding.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Exposure",
+    "reference": "E50",
+    "refId": "344"
+  },
+  "pe63stiffneck266": {
+    "title": "Stiff neck",
+    "description": "LOOK OR FEEL FOR STIFF NECK\n\nA child with fever and stiff neck may have meningitis. A child with meningitis needs urgent treatment with injectable antibiotics and referral to hospital.\n\nWhile you talk with the mother during the assessment, look to see if the child moves and bends his neck easily as he looks around. If the child is moving and bending his neck, he does not have a stiff neck.\n\nIf you did not see any movement, or if you are not sure, draw the child’s attention to his umbilicus or toes. For example, you can shine a flashlight on his toes or umbilicus or tickle his toes to encourage the child to look down. Look to see if the child can bend his neck when he looks down at his umbilicus or toes.\n\nIf you still have not seen the child bend his neck himself, ask the mother to help you lie the child on his back. Lean over the child, gently support his back and shoulders with one hand. With the other hand, hold his head. Then carefully bend the head forward toward his chest. If the neck bends easily, the child does not have stiff neck. If the neck feels stiff and there is resistance to bending, the child has a stiff neck. Often a child with a stiff neck will cry when you try to bend the neck. REF WHO IMCI Handbook 2005",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE63",
+    "refId": "266"
+  },
+  "pe65severeabdominalpalpationneed": {
+    "title": "Severe abdominal palpation (needing referral)",
+    "description": "Select this as \"present\" if the abdominal palpation is of great concern, for which the child should be referred for further investigations (US, surgical evaluation).\nTo examine the abdomen, the child should be in supine position (on his/her back) and the abdominal wall muscles need to be relaxed. Examine the abdomen from the right side. Ask the child to point to the area of greatest pain, examine this point last. Divide the abdomen in 4 quadrants (upper left, lower left, upper right, lower right) and examine each quadrant. To palpate the abdomen, place the flat of your hand on the abdominal wall and apply a firm and steady pressure. Observe the child's facial expression during palpation to determine if they are in pain. For younger children who refuse to lay on his/her back or crying infants, examine the abdomen while the child is sitting on the mother's lap. Check for guarding (=contraction of the abdominal wall muscle to avoid pain during palpation) and for rebound tenderness (=tenderness by quickly removing the examining hand after palpation) \nSigns of severe abdominal palpation include: Rebound tenderness. Pain to even light touch.\n\nSigns of appendicitis include : Right lower quadrant tenderness or rebound tenderness, accentuated when jumping on right foot, pain migrating from the umbilical region to the right lower quadrant over hours or days associated with fever and/or diarrhea and/or loss of appetite",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE65",
+    "refId": "282"
+  },
+  "pe69woundinfectionpuswarmthorswe": {
+    "title": "Wound",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE210",
+    "refId": "3494"
+  },
+  "pe83largeareaofwarmpinkandtender": {
+    "title": "Large area of warm, pink and tender skin around abscess",
+    "description": "warm, pink, tender",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE83",
+    "refId": "361"
+  },
+  "pe84abscesslocatedonface364": {
+    "title": "Abscess located on face",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE84",
+    "refId": "364"
+  },
+  "pe97oralherpes384": {
+    "title": "Oral herpes",
+    "description": "Single or grouped vesicles often around mouth. Often painful.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE97",
+    "refId": "384"
+  },
+  "pe99extensiveskindisease388": {
+    "title": "Extensive skin disease",
+    "description": "This is a subjective assessment, as there is no accepted definition of extensive disease. Indications to consider as extensive skin disease include: involvement of more than one body region and size >1-2x patient's palm.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE99",
+    "refId": "388"
+  },
+  "peexamineinsideofmouthabnormal25": {
+    "title": "Examine inside of mouth: Abnormal",
+    "description": "Examine the inside of the mouth of the patient. \nLook to see if it is abnormal (ulcers, oral thrush/candida, vesicules)",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE236",
+    "refId": "25953"
+  },
+  "peoralcandidiasisoralthrush190": {
+    "title": "Oral candidiasis (Oral thrush)",
+    "description": "\"Does the child have white patches in their mouth?\n(Oral candidiasis presents with white plaques in mouth, most often on tongue, palate and inner cheeks, difficult to remove)\nAdapted from Pediatric Sepsis CoLab 2020  \"",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE51",
+    "refId": "190"
+  },
+  "pesizeofimpetigolesionsbiggertha": {
+    "title": "Size of impetigo lesions bigger than patient's palm",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE95",
+    "refId": "377"
+  },
+  "petendercolouredorirreducibleher": {
+    "title": "Tender coloured, or irreducible hernia (inguinal/abdominal)",
+    "description": "A tender coloured or irreducible abdominal hernia (bulge) that is visible on the abdominal wall. The most common cause of the bump is a hernia (abnormal exit of tissue or organ, such as bowel, through the abdominal wall), the tenderness and/or discoloration is a sign of possible incarceration (hernial content is trapped, leading eventually to blood circulation disorder and necrosis).",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE64",
+    "refId": "280"
+  },
+  "s103eatingbreastfeedingalotlesst": {
+    "title": "Eating /breastfeeding a lot less than usual",
+    "description": "In the present illness is the child / patient eating or breastfeeding less than usual?",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S103",
+    "refId": "293"
+  },
+  "s104durationofdiarrheadays295cat": {
+    "title": "Duration of diarrhea (days)",
+    "type": "radio",
+    "choices": {
+      "0": "< 14 days",
+      "1": ">= 14 days"
+    },
+    "category": "Symptom",
+    "reference": "S104",
+    "refId": "295"
+  },
+  "s124significantweightloss1746": {
+    "title": "Significant weight loss",
+    "description": "Poor weight gain, failure to thrive, weight loss, or documented weight loss",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S124",
+    "refId": "1746"
+  },
+  "s141estimatedgestationalage2129": {
+    "title": "Estimated gestational age",
+    "description": "If gestational age not documented/known from record book. Maternal report\nGestational age at delivery refers to the number of weeks the mother was pregnant when she gave birth (normal ranges are 37-40 weeks)",
+    "type": "radio",
+    "choices": {
+      "0": "On time",
+      "1": "Very early",
+      "2": "Early",
+      "3": "Late"
+    },
+    "category": "Symptom",
+    "reference": "S141",
+    "refId": "2129"
+  },
+  "s149yellowappearingskinoreyesjau": {
+    "title": "Yellow appearing skin or eyes (jaundice)",
+    "description": "Does the child have yelowed skin or sclera? It is important to look for jaundice in natural light. To look for jaundice, press the child’s skin over the forehead with your fingers to blanch. Remove your fingers and look for yellow discoloration. If there is yellow discoloration, the child has jaundice. Also look for yellow eyes, another sign that the child has jaundice. (Adapted from Pediatric Sepsis CoLab 2020 and IMCI 2014)",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S149",
+    "refId": "2970"
+  },
+  "s150painorswellingofgenitals2977": {
+    "title": "Pain or swelling of genitals",
+    "description": "Lead up question for \"Penile redness and/or swelling\", \"Genital irritation or local pain\", or \"Scrotal pain\"",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S150",
+    "refId": "2977"
+  },
+  "s159reportofprobleminproducingsu": {
+    "title": "Report of problem in producing sufficient milk supply",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S159",
+    "refId": "3230"
+  },
+  "s219constipationlessfrequentandh": {
+    "title": "Constipation: Less frequent and hard stools",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S219",
+    "refId": "10446"
+  },
+  "s39cough39": {
+    "title": "Cough",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S39",
+    "refId": "39"
+  },
+  "s40difficultybreathing40": {
+    "title": "Difficulty breathing",
+    "description": "Difficult breathing is any unusual pattern of breathing. Mothers describe this in different ways, They may say that their child´s breathing is \"fast\", \"noisy\" or \"interrupted\".  (IMCI 2014)",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S40",
+    "refId": "40"
+  },
+  "s42durationoffeverdays42categori": {
+    "title": "Duration of fever (days)",
+    "type": "radio",
+    "choices": {
+      "0": "< 4 days",
+      "1": ">= 4 days < 7 days",
+      "2": ">= 7 days < 14 days",
+      "3": ">= 14 days"
+    },
+    "category": "Symptom",
+    "reference": "S42",
+    "refId": "42"
+  },
+  "s46convulsionsinpresentillness88": {
+    "title": "Convulsions in present illness",
+    "description": "HAS THE CHILD HAD CONVULSIONS?\nDuring a convulsion, the child’s arms and legs stiffen because the muscles are contracting. The child may lose consciousness or not be able to respond to spoken directions. \nIn young infants: eyes staring to the side, unusual mouth mouvements, repetitive shaking of arms and legs.\n\nAsk the mother if the child has had convulsions during this current illness. Use words the mother understands. For example, the mother may know convulsions as “fits” or “spasms.”\n\nREF: WHO, IMCI 2005",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S46",
+    "refId": "88"
+  },
+  "s51toothpain163": {
+    "title": "Tooth pain",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S51",
+    "refId": "163"
+  },
+  "s57foreignbodyinear178": {
+    "title": "Foreign body in ear (seen/suspected)",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Physical Exam",
+    "reference": "PE199",
+    "refId": "3442"
+  },
+  "s58mouthpain181": {
+    "title": "Mouth pain",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S58",
+    "refId": "181"
+  },
+  "s61headache196": {
+    "title": "Headache",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S61",
+    "refId": "196"
+  },
+  "s63runnyorblockednose199": {
+    "title": "Runny or blocked nose",
+    "description": "Runny nose or blocked nose",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S63",
+    "refId": "199"
+  },
+  "s64looseorliquidstoolsdiarrhea20": {
+    "title": "Loose or liquid stools (diarrhea)",
+    "description": "ASK: DOES THE CHILD HAVE DIARRHOEA?\n\nUse words for diarrhoea the mother understands. Stools have changed from the usual pattern.\n(REF IMCI 2014)",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S64",
+    "refId": "200"
+  },
+  "s73painordifficultyurinating221": {
+    "title": "Pain or difficulty urinating",
+    "description": "painful urinary voiding (alguria) or burning/stinging sensation during difficult urination (dysuria)",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S73",
+    "refId": "221"
+  },
+  "s84analitching254": {
+    "title": "Anal itching",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S84",
+    "refId": "254"
+  },
+  "s91neckpainorstiffness269": {
+    "title": "Pain in eye",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S26",
+    "refId": "26"
+  },
+  "s92headtrauma272": {
+    "title": "Head trauma",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S92",
+    "refId": "272"
+  },
+  "s94vomiting276": {
+    "title": "Vomiting",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S94",
+    "refId": "276"
+  },
+  "s97biliousvomit279": {
+    "title": "Bilious vomit",
+    "description": "Grass-green to dark-green vomit. Bilious vomit contains bile and can be a symptom of intestinal obstruction or Ileus.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S97",
+    "refId": "279"
+  },
+  "sfeverinthisillness25": {
+    "title": "Fever in this illness",
+    "description": "Ask: \"\"During the child's present illness, have they had a fever?\"\"\nMeaning there was temperature measured at >=38°C, or if not measured, the child was abnormally hot upon touching the uncovered child . (REF Adapted from Sepsis CoLab, IMCI 2014)\"",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Symptom",
+    "reference": "S25",
+    "refId": "25"
+  },
+  "ut10lifethreateningemergencyobst": {
+    "title": "LIFE-THREATENING EMERGENCY: Obstructed/absent breathing, severe respiratory distress, anaphylaxis, shock, coma, convulsion, major trauma, major burns",
+    "description": "Select this option if the child is presenting with a life threatening sign that requires immediate treatment and management.",
+    "type": "radio",
+    "choices": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "category": "Unique Triage Variable",
+    "reference": "UT10",
+    "refId": "10450"
+  }
+}

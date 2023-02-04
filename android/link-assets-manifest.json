@@ -1,0 +1,441 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/Assets/Fonts/README.md",
+      "sha1": "85b5ba9763e908043b0c31f6927031bb4b66d56e"
+    },
+    {
+      "path": "src/Models/converter.ts",
+      "sha1": "400ecd09d7c91d404c90a094a9466a76b0b82d26"
+    },
+    {
+      "path": "src/Models/decoders/dxfinal_anemia.ort",
+      "sha1": "11ed85d8debd1135c82ca7b57b5166b2925a89e0"
+    },
+    {
+      "path": "src/Models/decoders/dxfinal_dehyd.ort",
+      "sha1": "189a5addd83b3340b49b43ee2d495ce1f34819a0"
+    },
+    {
+      "path": "src/Models/decoders/dxfinal_diarrhea.ort",
+      "sha1": "43740a2ced64728e0d562eb86e80fa70f566e47a"
+    },
+    {
+      "path": "src/Models/decoders/dxfinal_fws.ort",
+      "sha1": "fb8fbd43e6063303f249f47c7760c59a2959b18b"
+    },
+    {
+      "path": "src/Models/decoders/dxfinal_malaria.ort",
+      "sha1": "a1115e82e9df56dec430a793bf304a27e46056b9"
+    },
+    {
+      "path": "src/Models/decoders/dxfinal_malnut.ort",
+      "sha1": "e4b37ead1d614fe170b152e533a3e10b1fe24a33"
+    },
+    {
+      "path": "src/Models/decoders/dxfinal_pna.ort",
+      "sha1": "9751b3a302b32ea1817f1f913aa1547d621dd3b2"
+    },
+    {
+      "path": "src/Models/decoders/dxfinal_urti.ort",
+      "sha1": "428b97ecc48209f024892a1a0630a26173910a68"
+    },
+    {
+      "path": "src/Models/decoders.json",
+      "sha1": "3d8f511f4ad37e54d68680129ffff7d27e299325"
+    },
+    {
+      "path": "src/Models/decoders.ts",
+      "sha1": "82541150c17ac4bfe6d66652a6cdd20ddda14bfc"
+    },
+    {
+      "path": "src/Models/encoders/a54crp122categorical.ort",
+      "sha1": "fd56f676b2b3f20b2f08517d953b1c219e801903"
+    },
+    {
+      "path": "src/Models/encoders/a55urinaryanalysis224.ort",
+      "sha1": "b7994d0fa23a65b2bb9551d0efdad12c427707e1"
+    },
+    {
+      "path": "src/Models/encoders/a58hivrapidtestofchildinfant444c.ort",
+      "sha1": "28e45e20f48c5f2ae1c765d33b4a40ebf74628f7"
+    },
+    {
+      "path": "src/Models/encoders/a70hemoglobingdl3409categorical.ort",
+      "sha1": "c64e2f3039972a074acb188f7282ebf66965ba1d"
+    },
+    {
+      "path": "src/Models/encoders/a72observebreastfeedingattaching.ort",
+      "sha1": "86a2df02c7e0d19f6bca13a9df5aab3621cc5650"
+    },
+    {
+      "path": "src/Models/encoders/a75appetitetest3487.ort",
+      "sha1": "437420cd93d11e99703540b942d4e2e4e017b23b"
+    },
+    {
+      "path": "src/Models/encoders/a82stoolmicroscopy3821categorica.ort",
+      "sha1": "fe9b97bc2e6813b8afdd5dadf1cbd4dd292b8fe9"
+    },
+    {
+      "path": "src/Models/encoders/a89oralfluidtest22740.ort",
+      "sha1": "93a3bb9d209fe65d1cd2c70652c2d3b35d1fad2e"
+    },
+    {
+      "path": "src/Models/encoders/achildwellappearing3425.ort",
+      "sha1": "3a5ea33c0951d80c429c7103a565ec4241b3ce1a"
+    },
+    {
+      "path": "src/Models/encoders/bc131weightforagezscore7categori.ort",
+      "sha1": "f26f12c356dfd68f34b2454c125528a5064d1b67"
+    },
+    {
+      "path": "src/Models/encoders/bc132muacforagezscore99categoric.ort",
+      "sha1": "75b21fa07033d1bffbc2fba2846432bafa983114"
+    },
+    {
+      "path": "src/Models/encoders/bcaxillarytemperature2144categor.ort",
+      "sha1": "8257ad998b8a9126b6019e4161e396da80281a6a"
+    },
+    {
+      "path": "src/Models/encoders/bdageinmonths6categorical.ort",
+      "sha1": "b6e55a1ae9012776369b0fa03778e706c4e356f4"
+    },
+    {
+      "path": "src/Models/encoders/cc10skinhair10.ort",
+      "sha1": "d0a6f47a664db7fa4dd173b57cdd571de45bba07"
+    },
+    {
+      "path": "src/Models/encoders/cc11eye11.ort",
+      "sha1": "8bbba0b240bcd82c16cc6987c5f0b4b880a7748a"
+    },
+    {
+      "path": "src/Models/encoders/cc12earthroatmouth12.ort",
+      "sha1": "91c14c751859140805141d7f16f08a61fd586ddb"
+    },
+    {
+      "path": "src/Models/encoders/cc13respiratorycoughordifficultb.ort",
+      "sha1": "72e8698f0548f991a17d637b8efb3318f1261824"
+    },
+    {
+      "path": "src/Models/encoders/cc15genitourinaryutisti213.ort",
+      "sha1": "6156fbb767aab095827ace0f9bacc075ef709a27"
+    },
+    {
+      "path": "src/Models/encoders/cc16neuroheadachestiffneckneckpa.ort",
+      "sha1": "d51c66f06c7bd7fe63777cb5d03ebedc9777f8b6"
+    },
+    {
+      "path": "src/Models/encoders/cc17gastrointestinaldiarrheavomi.ort",
+      "sha1": "c34dc65a4f216b4c809caf68edea4f68c0de1264"
+    },
+    {
+      "path": "src/Models/encoders/cc18accidentmuskuloskeletalinclb.ort",
+      "sha1": "90db14313069d85814dfc6c1062fefbd8c65301a"
+    },
+    {
+      "path": "src/Models/encoders/cc24respiratory3447.ort",
+      "sha1": "fabb8f82cfa0199c5ad8cb1ef8aa3b43b39e15f4"
+    },
+    {
+      "path": "src/Models/encoders/cc25diarrheaabdominalgastrointes.ort",
+      "sha1": "2c640c55fef64b72740d74aae60989375f344d6f"
+    },
+    {
+      "path": "src/Models/encoders/cc26skin3456.ort",
+      "sha1": "5abe34fdcf4a872e48327eb1f49b7f28e438b65a"
+    },
+    {
+      "path": "src/Models/encoders/cc27eyecomplaint3459.ort",
+      "sha1": "a61e67c839ffa84d1770b9940907bdd57ec07c8c"
+    },
+    {
+      "path": "src/Models/encoders/cc28earormouthcomplaint3460.ort",
+      "sha1": "d769c779448ba1be0407dbbc405263cb68098bfd"
+    },
+    {
+      "path": "src/Models/encoders/cc29feedingproblemorweightconcer.ort",
+      "sha1": "712506d590044a84f4c8b8b1562a0911bea6aaf8"
+    },
+    {
+      "path": "src/Models/encoders/cc30malformationofbirthanomaly34.ort",
+      "sha1": "c5677bb95de11221ba7b1dc1f0a7f5cf55866c33"
+    },
+    {
+      "path": "src/Models/encoders/cc31injuriesbirthandnonbirthrela.ort",
+      "sha1": "3d1f30100322c3768ab9ca4c1e11342ccf794240"
+    },
+    {
+      "path": "src/Models/encoders/cc32fever3507.ort",
+      "sha1": "ae4eed2cc34073427f90cc363e1ac41372abb250"
+    },
+    {
+      "path": "src/Models/encoders/ch3hivstatusofpatient104categori.ort",
+      "sha1": "305617a6ea330c84caa16ec78284c94d3af489ab"
+    },
+    {
+      "path": "src/Models/encoders/dsex214categorical.ort",
+      "sha1": "99d4abc5ec6c4ed6dcc9ec0ff3f16b1da0d8ce2e"
+    },
+    {
+      "path": "src/Models/encoders/e46recentclosecontactwithsomebod.ort",
+      "sha1": "06de8aba82f9bb164a7f0e774239aa9613946d4b"
+    },
+    {
+      "path": "src/Models/encoders/e78hivstatusofbiologicmother2126.ort",
+      "sha1": "d307e416c6ff22effab768d25da223ab39fb93db"
+    },
+    {
+      "path": "src/Models/encoders/os116convulsingnow1685.ort",
+      "sha1": "2ef88dc40c89b57475c606cdca5c7c7015da17c9"
+    },
+    {
+      "path": "src/Models/encoders/os136oralfluidtest22742.ort",
+      "sha1": "a0b1fdc70e7154ed74e44a0de54f69495f4a1d5c"
+    },
+    {
+      "path": "src/Models/encoders/os3barkingcough64.ort",
+      "sha1": "37217d7b21b24d02ee858e7d73e86746886013d6"
+    },
+    {
+      "path": "src/Models/encoders/pe104pityriasisversicolor399.ort",
+      "sha1": "b35965a5a3321089142e5127d6cf7cf8b77d3545"
+    },
+    {
+      "path": "src/Models/encoders/pe108diaperrash409.ort",
+      "sha1": "4633fa03d771fe6cb3dedb2e2885abb9fcb885c5"
+    },
+    {
+      "path": "src/Models/encoders/pe109scarletfeverrash411.ort",
+      "sha1": "6d4f483300f24f1461165f723a23941b99f00597"
+    },
+    {
+      "path": "src/Models/encoders/pe128skinpustulesorblisters2120.ort",
+      "sha1": "b34dbe0be9a53467cc1e8d6f24bc5045e36c790c"
+    },
+    {
+      "path": "src/Models/encoders/pe133grunting2974.ort",
+      "sha1": "058f8e90bb7c11a6bd5d2ae7a6a44d9f1e66567a"
+    },
+    {
+      "path": "src/Models/encoders/pe134measlesrashandassociatedsig.ort",
+      "sha1": "6ac5403d7040e50ac33bea4eb2a92fe5e003eee1"
+    },
+    {
+      "path": "src/Models/encoders/pe162umbilicusredorswollen3288.ort",
+      "sha1": "4f70ee4e060d21d51efe8ff9fc2ca9e2bcb23d9c"
+    },
+    {
+      "path": "src/Models/encoders/pe192patientunabletofinishsenten.ort",
+      "sha1": "1ed60aefd86292f17049d040e79ce23d8cdc4355"
+    },
+    {
+      "path": "src/Models/encoders/pe194conjunctivalpallor3361.ort",
+      "sha1": "7d14a49181e80655d99362f8180c264e0211021e"
+    },
+    {
+      "path": "src/Models/encoders/pe195palmarpallor3364.ort",
+      "sha1": "47023c3ce71311fa844f30ae47a93b6ae85bb065"
+    },
+    {
+      "path": "src/Models/encoders/pe196severeconjunctivalpallor337.ort",
+      "sha1": "c5870ac601148ff4e9e1a0e904263f13c9b6baa9"
+    },
+    {
+      "path": "src/Models/encoders/pe197severepalmarpallor3380.ort",
+      "sha1": "d5a89a980f506462c0056ee6aa0f02636d422bcc"
+    },
+    {
+      "path": "src/Models/encoders/pe19stridorincalmchild19.ort",
+      "sha1": "abb6f3276089269f64f2aa8e887f004150863a23"
+    },
+    {
+      "path": "src/Models/encoders/pe201skinpinch3450.ort",
+      "sha1": "63276e9b8056a10ba0a0a29f57e6f6d18ff3c85a"
+    },
+    {
+      "path": "src/Models/encoders/pe214bloodoxygensaturation3547ca.ort",
+      "sha1": "b675a3b31ab040f3f4cb49e166638374b8beb3ba"
+    },
+    {
+      "path": "src/Models/encoders/pe219visiblerespiratoryratewarni.ort",
+      "sha1": "0d53843875c3bd77fa44268a33d30fd30071f3d5"
+    },
+    {
+      "path": "src/Models/encoders/pe220identifiablesourceoffever45.ort",
+      "sha1": "53034e0689ef41f33cae586fa0d0a43b3b8c28af"
+    },
+    {
+      "path": "src/Models/encoders/pe229somethingiswrongclinicianin.ort",
+      "sha1": "dc81af345c31bbd5425bc3457dbeca308e9711ae"
+    },
+    {
+      "path": "src/Models/encoders/pe50herpanginavesiculesinmouth18.ort",
+      "sha1": "36bedf291a4570165db58916dfb7ff45b3986895"
+    },
+    {
+      "path": "src/Models/encoders/pe63stiffneck266.ort",
+      "sha1": "42047174992ce727b346d1c8d62e5e9801272877"
+    },
+    {
+      "path": "src/Models/encoders/pe65severeabdominalpalpationneed.ort",
+      "sha1": "aa320f11209af4d431a0aa208e435a5b5693b085"
+    },
+    {
+      "path": "src/Models/encoders/pe69woundinfectionpuswarmthorswe.ort",
+      "sha1": "11ee5f048280520403f6bbd586ffef553c169753"
+    },
+    {
+      "path": "src/Models/encoders/pe83largeareaofwarmpinkandtender.ort",
+      "sha1": "891928b5bef23e70fd4eacbad93e63d6e0dc9bf7"
+    },
+    {
+      "path": "src/Models/encoders/pe84abscesslocatedonface364.ort",
+      "sha1": "a771db5f9821578dd8ee316546ac4d99cd0a2194"
+    },
+    {
+      "path": "src/Models/encoders/pe97oralherpes384.ort",
+      "sha1": "167ae9166812a3a834d8ed93fc052c11cba9ffdb"
+    },
+    {
+      "path": "src/Models/encoders/pe99extensiveskindisease388.ort",
+      "sha1": "673e985dff1f569200eaf9e77153f01b05f2b52a"
+    },
+    {
+      "path": "src/Models/encoders/peexamineinsideofmouthabnormal25.ort",
+      "sha1": "96df9dd35b9ce4a4af9e36fd66b80f53e01888f4"
+    },
+    {
+      "path": "src/Models/encoders/peoralcandidiasisoralthrush190.ort",
+      "sha1": "c759b1dcb65dd62e0600196aa4e38d012614d668"
+    },
+    {
+      "path": "src/Models/encoders/pesizeofimpetigolesionsbiggertha.ort",
+      "sha1": "187bbaacb393e4296422dadf660f1b65ba35613c"
+    },
+    {
+      "path": "src/Models/encoders/petendercolouredorirreducibleher.ort",
+      "sha1": "cb7615ee068562b5a734b49bbef3a3f4f4280d2d"
+    },
+    {
+      "path": "src/Models/encoders/s103eatingbreastfeedingalotlesst.ort",
+      "sha1": "be4e9f0e21d4e5719baa03e7f284758bfd950edd"
+    },
+    {
+      "path": "src/Models/encoders/s104durationofdiarrheadays295cat.ort",
+      "sha1": "86665e6cc6f346c83b8179d7f85f9a02ea6c9cb4"
+    },
+    {
+      "path": "src/Models/encoders/s124significantweightloss1746.ort",
+      "sha1": "5376e2678fed1b9530e412f82f4fb0d9658a049e"
+    },
+    {
+      "path": "src/Models/encoders/s141estimatedgestationalage2129.ort",
+      "sha1": "00217a58c6e902bfb0626585638b15ea50e87d4d"
+    },
+    {
+      "path": "src/Models/encoders/s149yellowappearingskinoreyesjau.ort",
+      "sha1": "aede926637cab8085e179eb02545874884f12666"
+    },
+    {
+      "path": "src/Models/encoders/s150painorswellingofgenitals2977.ort",
+      "sha1": "7fc147de5bf22ab3208f45c8807d9e5d5a7278e9"
+    },
+    {
+      "path": "src/Models/encoders/s159reportofprobleminproducingsu.ort",
+      "sha1": "d63d958af85b646c74564370861d89a9b4db53af"
+    },
+    {
+      "path": "src/Models/encoders/s219constipationlessfrequentandh.ort",
+      "sha1": "36e845aad78f72c0b26c1f9959b28fdaab4a1209"
+    },
+    {
+      "path": "src/Models/encoders/s39cough39.ort",
+      "sha1": "5a959a720cc091ffe01f05e85aae40f0d8a4bc07"
+    },
+    {
+      "path": "src/Models/encoders/s40difficultybreathing40.ort",
+      "sha1": "d4b6d0f9b59a3fb852cb12e6b2612749ae4bc582"
+    },
+    {
+      "path": "src/Models/encoders/s42durationoffeverdays42categori.ort",
+      "sha1": "2258b553b99a892a70ad9214f6f1e010502f3b3e"
+    },
+    {
+      "path": "src/Models/encoders/s46convulsionsinpresentillness88.ort",
+      "sha1": "d3ee61c1e267bb1844da85d1b5887e76bd7f1d46"
+    },
+    {
+      "path": "src/Models/encoders/s51toothpain163.ort",
+      "sha1": "7b016dcd5e7a1d49e0e42788d44752d9466c99ba"
+    },
+    {
+      "path": "src/Models/encoders/s57foreignbodyinear178.ort",
+      "sha1": "d2c0eaebbdaa60c97505a6e53f097e69cddcb2b5"
+    },
+    {
+      "path": "src/Models/encoders/s58mouthpain181.ort",
+      "sha1": "bc13463956bcfbfaf9a5dbf5d2101f6c3c54d18e"
+    },
+    {
+      "path": "src/Models/encoders/s61headache196.ort",
+      "sha1": "9ba2124218758b170dd015fb02dbd0c44581e2eb"
+    },
+    {
+      "path": "src/Models/encoders/s63runnyorblockednose199.ort",
+      "sha1": "3316016fab8a4445cfdfd7148262ee19cc2609e4"
+    },
+    {
+      "path": "src/Models/encoders/s64looseorliquidstoolsdiarrhea20.ort",
+      "sha1": "b9b3e972c11770ef601330e2e9017a347ba7ede8"
+    },
+    {
+      "path": "src/Models/encoders/s73painordifficultyurinating221.ort",
+      "sha1": "e93b21c7667f6f23bb39233c202c564bdd7013e0"
+    },
+    {
+      "path": "src/Models/encoders/s84analitching254.ort",
+      "sha1": "13fa7d61821bf81bd5d60972d37155992f9e0b84"
+    },
+    {
+      "path": "src/Models/encoders/s91neckpainorstiffness269.ort",
+      "sha1": "4e2a8dd1ce3c40136fde15da6999aadbc0d0e8d3"
+    },
+    {
+      "path": "src/Models/encoders/s92headtrauma272.ort",
+      "sha1": "3f09e2aecae41072427b50d962c6d041e0f67d76"
+    },
+    {
+      "path": "src/Models/encoders/s94vomiting276.ort",
+      "sha1": "b86af06d738c6b37f23bed1ff929c287cebbef7a"
+    },
+    {
+      "path": "src/Models/encoders/s97biliousvomit279.ort",
+      "sha1": "bc48df5726f118d7a2f659ac9027befeca217123"
+    },
+    {
+      "path": "src/Models/encoders/sfeverinthisillness25.ort",
+      "sha1": "eea00d1ceedd978a74ea9c95b130ceef9de6ec8b"
+    },
+    {
+      "path": "src/Models/encoders/ut10lifethreateningemergencyobst.ort",
+      "sha1": "824dd25f94264fefff4748a2acbaed3872fe5edd"
+    },
+    {
+      "path": "src/Models/localization.json",
+      "sha1": "56ada1bd961ed623a07968ac07d913c3c175b443"
+    },
+    {
+      "path": "src/Models/names.json",
+      "sha1": "153581ffe1862d8b238bc01b0f4f1a4349bc5bd7"
+    },
+    {
+      "path": "src/Models/questions.json",
+      "sha1": "f5339dc875e81ad956fa139d4e7ec536b9e1bd8f"
+    },
+    {
+      "path": "src/Models/questions.ts",
+      "sha1": "1501ee851dc6371f51997e1b1d5e45a8b9afae1a"
+    }
+  ]
+}

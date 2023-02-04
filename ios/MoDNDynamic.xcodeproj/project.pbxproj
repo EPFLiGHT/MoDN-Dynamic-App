@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* MoDNDynamicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoDNDynamicTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-MoDNDynamic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-MoDNDynamic.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-MoDNDynamic-MoDNDynamicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-MoDNDynamic-MoDNDynamicTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E8B5D1CFCF404FB88E0CB5E5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BD591CB197E4949A3BD8DB3 /* README.md */; };
+		6C383CE6CE834BF19B580E96 /* dxfinal_anemia.ort in Resources */ = {isa = PBXBuildFile; fileRef = 55EA8DA46FD443E3BB809466 /* dxfinal_anemia.ort */; };
+		842D709958FF4C20A8F8F2A8 /* dxfinal_dehyd.ort in Resources */ = {isa = PBXBuildFile; fileRef = 2D80A00D6D2849119CA9ADD7 /* dxfinal_dehyd.ort */; };
+		6911BAD39D524E38B5611442 /* dxfinal_diarrhea.ort in Resources */ = {isa = PBXBuildFile; fileRef = 4D3980D8B1504ADA9F6E91CB /* dxfinal_diarrhea.ort */; };
+		AF378F49133048FA93F5C163 /* dxfinal_fws.ort in Resources */ = {isa = PBXBuildFile; fileRef = 1F98D2867D0646FEBD4EFA80 /* dxfinal_fws.ort */; };
+		885B9DD5322847CF96F858A1 /* dxfinal_malaria.ort in Resources */ = {isa = PBXBuildFile; fileRef = 2196D5420ACE4A6D85D57B1B /* dxfinal_malaria.ort */; };
+		7392D7BD75454372BE5C6B54 /* dxfinal_malnut.ort in Resources */ = {isa = PBXBuildFile; fileRef = B870BDC81E804CC282A11629 /* dxfinal_malnut.ort */; };
+		07F7CA237ED64A98A8844A55 /* dxfinal_pna.ort in Resources */ = {isa = PBXBuildFile; fileRef = 753903C32F8D49A29A0E1CEA /* dxfinal_pna.ort */; };
+		BB8A69BD12B8479A80AC0400 /* dxfinal_urti.ort in Resources */ = {isa = PBXBuildFile; fileRef = D93BAE22C6894B8088D2FE9A /* dxfinal_urti.ort */; };
+		4EEFBC5BB9C64A36BC1B3F87 /* a54crp122categorical.ort in Resources */ = {isa = PBXBuildFile; fileRef = 63041B7CB08349918C6FB1A1 /* a54crp122categorical.ort */; };
+		DBEFC47B58CB44C3B61C5B12 /* a55urinaryanalysis224.ort in Resources */ = {isa = PBXBuildFile; fileRef = 013D96189791484FA2DF72BB /* a55urinaryanalysis224.ort */; };
+		041EB771E8B94F6B8F64E654 /* a58hivrapidtestofchildinfant444c.ort in Resources */ = {isa = PBXBuildFile; fileRef = 6775DFF7E23041A7965985D5 /* a58hivrapidtestofchildinfant444c.ort */; };
+		A1239470FAB64350879FB55E /* a70hemoglobingdl3409categorical.ort in Resources */ = {isa = PBXBuildFile; fileRef = E0026459DBCC4DE38B1575DE /* a70hemoglobingdl3409categorical.ort */; };
+		C2012A9756C8415AB2E27F8A /* a72observebreastfeedingattaching.ort in Resources */ = {isa = PBXBuildFile; fileRef = E0987E3595B8468D8AE1C7BC /* a72observebreastfeedingattaching.ort */; };
+		F7068D5D64934820A23F8507 /* a75appetitetest3487.ort in Resources */ = {isa = PBXBuildFile; fileRef = 18BC449F436F4C208AB8EB59 /* a75appetitetest3487.ort */; };
+		42C932DF27904CE7850A1E24 /* a82stoolmicroscopy3821categorica.ort in Resources */ = {isa = PBXBuildFile; fileRef = BE2E89AAA6F64569ABD1FE12 /* a82stoolmicroscopy3821categorica.ort */; };
+		8E742B845C184E5281B387F9 /* a89oralfluidtest22740.ort in Resources */ = {isa = PBXBuildFile; fileRef = 10AEF9DD5092464A89B201F5 /* a89oralfluidtest22740.ort */; };
+		335387377DB947B7A01E7390 /* achildwellappearing3425.ort in Resources */ = {isa = PBXBuildFile; fileRef = F55E798BEE8848B5B74C16F2 /* achildwellappearing3425.ort */; };
+		DE8A21FEB2C84496A28FA400 /* bc131weightforagezscore7categori.ort in Resources */ = {isa = PBXBuildFile; fileRef = D0CC871349A64F2981495126 /* bc131weightforagezscore7categori.ort */; };
+		58B6F7C317E14A348CB10660 /* bc132muacforagezscore99categoric.ort in Resources */ = {isa = PBXBuildFile; fileRef = 78F1B741A7AB4B2F99F0B50E /* bc132muacforagezscore99categoric.ort */; };
+		8D999D99986947B8BB6B1B5A /* bcaxillarytemperature2144categor.ort in Resources */ = {isa = PBXBuildFile; fileRef = 4CB04B3647CB41499889C8CE /* bcaxillarytemperature2144categor.ort */; };
+		0F5EDCA55CEA45E7AC705502 /* bdageinmonths6categorical.ort in Resources */ = {isa = PBXBuildFile; fileRef = 85AE684AA60E48EAA7C0EDEE /* bdageinmonths6categorical.ort */; };
+		27F088F96C7F484C87088B3E /* cc10skinhair10.ort in Resources */ = {isa = PBXBuildFile; fileRef = 569277C3E5664D14BDAEC828 /* cc10skinhair10.ort */; };
+		4F6EE68843D8417ABE15A84B /* cc11eye11.ort in Resources */ = {isa = PBXBuildFile; fileRef = 934494ECFE85474D9B32F98D /* cc11eye11.ort */; };
+		F53462D7B9BC4694A7579157 /* cc12earthroatmouth12.ort in Resources */ = {isa = PBXBuildFile; fileRef = 73C32393D9B54D369711AC30 /* cc12earthroatmouth12.ort */; };
+		DE3A8FA5F33046E18F6D8C6D /* cc13respiratorycoughordifficultb.ort in Resources */ = {isa = PBXBuildFile; fileRef = 07C3578260A546808A835E4A /* cc13respiratorycoughordifficultb.ort */; };
+		078D0A397A7F42D5A7BB6390 /* cc15genitourinaryutisti213.ort in Resources */ = {isa = PBXBuildFile; fileRef = 7796B04EED8F4068A7D43913 /* cc15genitourinaryutisti213.ort */; };
+		430E0FE30508419FA68D9D3B /* cc16neuroheadachestiffneckneckpa.ort in Resources */ = {isa = PBXBuildFile; fileRef = 3B432C1FFCC041C5A18E49C8 /* cc16neuroheadachestiffneckneckpa.ort */; };
+		E0C96EA3403F4F8FBE6C5D88 /* cc17gastrointestinaldiarrheavomi.ort in Resources */ = {isa = PBXBuildFile; fileRef = 1271B28F91A3422B948B8F06 /* cc17gastrointestinaldiarrheavomi.ort */; };
+		FC3EAA07E5E44D3BAA8846EB /* cc18accidentmuskuloskeletalinclb.ort in Resources */ = {isa = PBXBuildFile; fileRef = 757F0D6771B14511863D0263 /* cc18accidentmuskuloskeletalinclb.ort */; };
+		33370D026D3B459EBB9FC27C /* cc24respiratory3447.ort in Resources */ = {isa = PBXBuildFile; fileRef = CF58BA78EA9D40A38241FBF7 /* cc24respiratory3447.ort */; };
+		9E1A897188BB49C993C09714 /* cc25diarrheaabdominalgastrointes.ort in Resources */ = {isa = PBXBuildFile; fileRef = C346FAD756684DAF99D62EC3 /* cc25diarrheaabdominalgastrointes.ort */; };
+		3E69467BE3D84E5391263EE0 /* cc26skin3456.ort in Resources */ = {isa = PBXBuildFile; fileRef = F1A805A08DB2467CB7C81C06 /* cc26skin3456.ort */; };
+		FB2DAFA773CA4856AA015D51 /* cc27eyecomplaint3459.ort in Resources */ = {isa = PBXBuildFile; fileRef = A61E7EC34853406D8ADF5079 /* cc27eyecomplaint3459.ort */; };
+		462851D82504405FB34F5D37 /* cc28earormouthcomplaint3460.ort in Resources */ = {isa = PBXBuildFile; fileRef = E4CA242D72D94D1F80652F27 /* cc28earormouthcomplaint3460.ort */; };
+		21B5D0CDC41B4283BEE1D418 /* cc29feedingproblemorweightconcer.ort in Resources */ = {isa = PBXBuildFile; fileRef = 45C73680FD694691B916A3C8 /* cc29feedingproblemorweightconcer.ort */; };
+		09FE0A407468459EB033A1B2 /* cc30malformationofbirthanomaly34.ort in Resources */ = {isa = PBXBuildFile; fileRef = 9FA098B647CB4D8FAB8B79F0 /* cc30malformationofbirthanomaly34.ort */; };
+		4335BD69AB404884BB529EC8 /* cc31injuriesbirthandnonbirthrela.ort in Resources */ = {isa = PBXBuildFile; fileRef = 8D517278C9574A619D9BFA99 /* cc31injuriesbirthandnonbirthrela.ort */; };
+		346E752B1E55479591846C81 /* cc32fever3507.ort in Resources */ = {isa = PBXBuildFile; fileRef = 9363693209AE4CC38DDB2685 /* cc32fever3507.ort */; };
+		8CA60E069E0D4430ABF9DA88 /* ch3hivstatusofpatient104categori.ort in Resources */ = {isa = PBXBuildFile; fileRef = 6112864DD9CC4F78BDBD6C9E /* ch3hivstatusofpatient104categori.ort */; };
+		BE705DA958544D1E99C20C61 /* dsex214categorical.ort in Resources */ = {isa = PBXBuildFile; fileRef = EB89AC90D0DE4E64B913C83A /* dsex214categorical.ort */; };
+		FE34D87071C4489F8DF68BEA /* e46recentclosecontactwithsomebod.ort in Resources */ = {isa = PBXBuildFile; fileRef = 30A1081042674F5D9DCF904B /* e46recentclosecontactwithsomebod.ort */; };
+		F21263A457EF495AB512761C /* e78hivstatusofbiologicmother2126.ort in Resources */ = {isa = PBXBuildFile; fileRef = D408500C8D25460694A1030D /* e78hivstatusofbiologicmother2126.ort */; };
+		8AE7E13C176F4CE88A128B56 /* os116convulsingnow1685.ort in Resources */ = {isa = PBXBuildFile; fileRef = 5975153D51C34C8C959A4BAF /* os116convulsingnow1685.ort */; };
+		0EB7E6D166914CF39C8487F4 /* os136oralfluidtest22742.ort in Resources */ = {isa = PBXBuildFile; fileRef = 790C7F1C6D974FDFA9D9C289 /* os136oralfluidtest22742.ort */; };
+		1AA4C1B335644900B908F58B /* os3barkingcough64.ort in Resources */ = {isa = PBXBuildFile; fileRef = A5F49D925B324C8FA01E6B77 /* os3barkingcough64.ort */; };
+		097C0DF043D742FF9CA2694D /* pe104pityriasisversicolor399.ort in Resources */ = {isa = PBXBuildFile; fileRef = 4721A4B406FB4789B9A0ECAC /* pe104pityriasisversicolor399.ort */; };
+		390340F4957948C0AAE8C9AE /* pe108diaperrash409.ort in Resources */ = {isa = PBXBuildFile; fileRef = BCEB8CE2CB2E404F99C4A0D9 /* pe108diaperrash409.ort */; };
+		D8D3CB05F23B4A3EB666A999 /* pe109scarletfeverrash411.ort in Resources */ = {isa = PBXBuildFile; fileRef = 1E64B0DE7E954A84A7014717 /* pe109scarletfeverrash411.ort */; };
+		ED68ECD137174CE09F0829E0 /* pe128skinpustulesorblisters2120.ort in Resources */ = {isa = PBXBuildFile; fileRef = 5F99F6DB105C4FA98D6CCC09 /* pe128skinpustulesorblisters2120.ort */; };
+		E8869ED3E876492B8C520E70 /* pe133grunting2974.ort in Resources */ = {isa = PBXBuildFile; fileRef = C6F9B3B6895747008D203233 /* pe133grunting2974.ort */; };
+		E8D42B16D8374D2DA0B8EDCF /* pe134measlesrashandassociatedsig.ort in Resources */ = {isa = PBXBuildFile; fileRef = 250F53C76884456E8C4E2FC7 /* pe134measlesrashandassociatedsig.ort */; };
+		96831CA1D9FF4E35AAED82E7 /* pe162umbilicusredorswollen3288.ort in Resources */ = {isa = PBXBuildFile; fileRef = D9A85D51870243AE8B2748C3 /* pe162umbilicusredorswollen3288.ort */; };
+		405A84B8A7BB4131A18E8B19 /* pe192patientunabletofinishsenten.ort in Resources */ = {isa = PBXBuildFile; fileRef = 9FBAB97AD51E48D385451FD4 /* pe192patientunabletofinishsenten.ort */; };
+		82CB47DC2AEB441A8EF17CFA /* pe194conjunctivalpallor3361.ort in Resources */ = {isa = PBXBuildFile; fileRef = D1844713BCBA4150956FB251 /* pe194conjunctivalpallor3361.ort */; };
+		AB448BA2856E4870982A5766 /* pe195palmarpallor3364.ort in Resources */ = {isa = PBXBuildFile; fileRef = CC1146C4A34E44B8A79CC884 /* pe195palmarpallor3364.ort */; };
+		9A76E47C6D1943E58A9271D8 /* pe196severeconjunctivalpallor337.ort in Resources */ = {isa = PBXBuildFile; fileRef = 7C80D334E94043078F122C76 /* pe196severeconjunctivalpallor337.ort */; };
+		309933576F854DB0BC5AA354 /* pe197severepalmarpallor3380.ort in Resources */ = {isa = PBXBuildFile; fileRef = 5D7196AB6FE44A8AADD70400 /* pe197severepalmarpallor3380.ort */; };
+		00F164B0FF7441B189D31C16 /* pe19stridorincalmchild19.ort in Resources */ = {isa = PBXBuildFile; fileRef = 681D5BBB56234CA293EE98F7 /* pe19stridorincalmchild19.ort */; };
+		CC69AE010D8C4678A288AC48 /* pe201skinpinch3450.ort in Resources */ = {isa = PBXBuildFile; fileRef = B9FFE1CDCEDA4AFAAAED5161 /* pe201skinpinch3450.ort */; };
+		695D457366834E3AAD0FEA26 /* pe214bloodoxygensaturation3547ca.ort in Resources */ = {isa = PBXBuildFile; fileRef = 7D83FAF412CB4F01971184BC /* pe214bloodoxygensaturation3547ca.ort */; };
+		2BE2867FDD7043058D67D036 /* pe219visiblerespiratoryratewarni.ort in Resources */ = {isa = PBXBuildFile; fileRef = F7F12763E3A2455BA497FE08 /* pe219visiblerespiratoryratewarni.ort */; };
+		2825D3F8EF994C1CB39AD015 /* pe220identifiablesourceoffever45.ort in Resources */ = {isa = PBXBuildFile; fileRef = 584E984E07CA4A36965B9215 /* pe220identifiablesourceoffever45.ort */; };
+		F281D742CAF945A2BAB7EB18 /* pe229somethingiswrongclinicianin.ort in Resources */ = {isa = PBXBuildFile; fileRef = 29238A8D268C4F7FA72111B3 /* pe229somethingiswrongclinicianin.ort */; };
+		DFE19DC0C8E64EA28454B8FE /* pe50herpanginavesiculesinmouth18.ort in Resources */ = {isa = PBXBuildFile; fileRef = A4BE6FEE997D45629EC85CDE /* pe50herpanginavesiculesinmouth18.ort */; };
+		EE370EFC3379449995F4EC63 /* pe63stiffneck266.ort in Resources */ = {isa = PBXBuildFile; fileRef = ACD4FC56F306446E9EC10601 /* pe63stiffneck266.ort */; };
+		7ABA64FF9D6147EB8EF80D94 /* pe65severeabdominalpalpationneed.ort in Resources */ = {isa = PBXBuildFile; fileRef = BAC3DD821A204145A7336B23 /* pe65severeabdominalpalpationneed.ort */; };
+		CCB8705F8E264F898320B40C /* pe69woundinfectionpuswarmthorswe.ort in Resources */ = {isa = PBXBuildFile; fileRef = 8D54603C3CA3451E84BC0E18 /* pe69woundinfectionpuswarmthorswe.ort */; };
+		6387BB432BBC48F7A9377C48 /* pe83largeareaofwarmpinkandtender.ort in Resources */ = {isa = PBXBuildFile; fileRef = BE73D8FF6FFD47BE8D3D48DF /* pe83largeareaofwarmpinkandtender.ort */; };
+		5A776629950A4F838618DBEB /* pe84abscesslocatedonface364.ort in Resources */ = {isa = PBXBuildFile; fileRef = 71938A5224A443CF92845BB0 /* pe84abscesslocatedonface364.ort */; };
+		433B901EE4BF4D3FBCFFC3B8 /* pe97oralherpes384.ort in Resources */ = {isa = PBXBuildFile; fileRef = 3C94CDDEE2284F9CB17075B0 /* pe97oralherpes384.ort */; };
+		CFC389E81F8C4EE4973A449E /* pe99extensiveskindisease388.ort in Resources */ = {isa = PBXBuildFile; fileRef = BF200EA05B2B4C93A9AFAEFE /* pe99extensiveskindisease388.ort */; };
+		7BD9B541D5A04873994F94A2 /* peexamineinsideofmouthabnormal25.ort in Resources */ = {isa = PBXBuildFile; fileRef = CFAFC26374B44F2CA4A07A45 /* peexamineinsideofmouthabnormal25.ort */; };
+		092FF1337C514494A7FCCA29 /* peoralcandidiasisoralthrush190.ort in Resources */ = {isa = PBXBuildFile; fileRef = 45145BEF71D84862AB0E8679 /* peoralcandidiasisoralthrush190.ort */; };
+		4E2380CFA1AC49A68A59BABD /* pesizeofimpetigolesionsbiggertha.ort in Resources */ = {isa = PBXBuildFile; fileRef = 77E2E10969D4491B88ED0885 /* pesizeofimpetigolesionsbiggertha.ort */; };
+		A51C78FA570747D4B3453585 /* petendercolouredorirreducibleher.ort in Resources */ = {isa = PBXBuildFile; fileRef = FD8AF1D187B6415BA09BD084 /* petendercolouredorirreducibleher.ort */; };
+		A79AF6554FD348D0A6A7DEC4 /* s103eatingbreastfeedingalotlesst.ort in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4924F71BE4359BA8DFDC3 /* s103eatingbreastfeedingalotlesst.ort */; };
+		40AF29B5185D4F1682CE2CB9 /* s104durationofdiarrheadays295cat.ort in Resources */ = {isa = PBXBuildFile; fileRef = 3B7FCADC1EF44AA594A6AA61 /* s104durationofdiarrheadays295cat.ort */; };
+		154F43F83BB544DA9CF1EED1 /* s124significantweightloss1746.ort in Resources */ = {isa = PBXBuildFile; fileRef = 35D1BD4EC01B407782A86EB2 /* s124significantweightloss1746.ort */; };
+		13C7D5F826FF4E168472AC51 /* s141estimatedgestationalage2129.ort in Resources */ = {isa = PBXBuildFile; fileRef = DCA8A709CAE54D4C96E4F214 /* s141estimatedgestationalage2129.ort */; };
+		DFEB0EC0ACC641BFBAA36914 /* s149yellowappearingskinoreyesjau.ort in Resources */ = {isa = PBXBuildFile; fileRef = 5125241AC1164000B1F79D04 /* s149yellowappearingskinoreyesjau.ort */; };
+		B10594F20BC74979842BA0B7 /* s150painorswellingofgenitals2977.ort in Resources */ = {isa = PBXBuildFile; fileRef = A23667FBC8CD40BA9F85643D /* s150painorswellingofgenitals2977.ort */; };
+		A0D9266ED29B4CD1B877C07D /* s159reportofprobleminproducingsu.ort in Resources */ = {isa = PBXBuildFile; fileRef = 426FFA05D55D42E9A88C4D9B /* s159reportofprobleminproducingsu.ort */; };
+		DAC392F6F50C42C4B2B58944 /* s219constipationlessfrequentandh.ort in Resources */ = {isa = PBXBuildFile; fileRef = 0368B11314E843808C66E29D /* s219constipationlessfrequentandh.ort */; };
+		D38D32BB669444709C9B6331 /* s39cough39.ort in Resources */ = {isa = PBXBuildFile; fileRef = 0D6C97B8256E48A38F916E8A /* s39cough39.ort */; };
+		99330E544F6C4769B0E72DF7 /* s40difficultybreathing40.ort in Resources */ = {isa = PBXBuildFile; fileRef = 65FFD97E1E9E494583847A76 /* s40difficultybreathing40.ort */; };
+		BED3BAF699ED47E0BC83EC5E /* s42durationoffeverdays42categori.ort in Resources */ = {isa = PBXBuildFile; fileRef = 01B462D899774EC0A2A06506 /* s42durationoffeverdays42categori.ort */; };
+		5E4FB01531D14A059D4CF849 /* s46convulsionsinpresentillness88.ort in Resources */ = {isa = PBXBuildFile; fileRef = 747D18B042E9463A8C85E84C /* s46convulsionsinpresentillness88.ort */; };
+		7061F0B0A7E24FA399FC6BC3 /* s51toothpain163.ort in Resources */ = {isa = PBXBuildFile; fileRef = 58CCA4F9517843EC88A5314B /* s51toothpain163.ort */; };
+		E7E6ABE62E9343A493C58448 /* s57foreignbodyinear178.ort in Resources */ = {isa = PBXBuildFile; fileRef = F5B5F0AF30DD405D8552CB5C /* s57foreignbodyinear178.ort */; };
+		FC57B41D751E4F43BAC14CCE /* s58mouthpain181.ort in Resources */ = {isa = PBXBuildFile; fileRef = 63508866D9FD43FE9FE4EA10 /* s58mouthpain181.ort */; };
+		0A4CA420D0954C72953CD5D2 /* s61headache196.ort in Resources */ = {isa = PBXBuildFile; fileRef = D177E99C826C41E6907C4DE8 /* s61headache196.ort */; };
+		FC5E6CFA4D464000B307316B /* s63runnyorblockednose199.ort in Resources */ = {isa = PBXBuildFile; fileRef = 4F2E9E0DF5174709B14FE1F1 /* s63runnyorblockednose199.ort */; };
+		777B14D14E184CD190EF6EF8 /* s64looseorliquidstoolsdiarrhea20.ort in Resources */ = {isa = PBXBuildFile; fileRef = F145BAEEEF0C463EA0487E53 /* s64looseorliquidstoolsdiarrhea20.ort */; };
+		69201FC2AFBE448A86C4A452 /* s73painordifficultyurinating221.ort in Resources */ = {isa = PBXBuildFile; fileRef = 5986D755EB454B769E04FF88 /* s73painordifficultyurinating221.ort */; };
+		289B93208A594EB9B89D9ADC /* s84analitching254.ort in Resources */ = {isa = PBXBuildFile; fileRef = 9D43304B633A484FA96420E6 /* s84analitching254.ort */; };
+		73A8F4BF62B24FEA97F2C749 /* s91neckpainorstiffness269.ort in Resources */ = {isa = PBXBuildFile; fileRef = 0B746D52139B47E7AFEC4CC6 /* s91neckpainorstiffness269.ort */; };
+		60F756DC71AE4AB4908CF582 /* s92headtrauma272.ort in Resources */ = {isa = PBXBuildFile; fileRef = D2B26771D6C440029DAED41F /* s92headtrauma272.ort */; };
+		DA33ECC2214141379C546A12 /* s94vomiting276.ort in Resources */ = {isa = PBXBuildFile; fileRef = 5BA40D348455447A850371C9 /* s94vomiting276.ort */; };
+		766A78C039244AB1A9C9056B /* s97biliousvomit279.ort in Resources */ = {isa = PBXBuildFile; fileRef = 6BE69E8201F346FDBD9602A8 /* s97biliousvomit279.ort */; };
+		C4A774189C9F476287A43EC3 /* sfeverinthisillness25.ort in Resources */ = {isa = PBXBuildFile; fileRef = C9C32FCABCF442EEB8D5EC28 /* sfeverinthisillness25.ort */; };
+		50F5476C19E44A8E9F3B1FFC /* ut10lifethreateningemergencyobst.ort in Resources */ = {isa = PBXBuildFile; fileRef = B5A51AB4404C459EA8469092 /* ut10lifethreateningemergencyobst.ort */; };
+		970262067A1241008A54E038 /* names.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BE4FF8E2E9D488E94B5CF35 /* names.json */; };
+		A5D00BF90EE841B2829EF209 /* converter.ts in Resources */ = {isa = PBXBuildFile; fileRef = F42305B62E234DD1AD03BC4D /* converter.ts */; };
+		A54EC2BE797C470C8809C054 /* decoders.json in Resources */ = {isa = PBXBuildFile; fileRef = 380B6C67A04D4D12A2926D4F /* decoders.json */; };
+		00837443A9004E38B66658CA /* decoders.ts in Resources */ = {isa = PBXBuildFile; fileRef = 461C83D6B36442E7AD987168 /* decoders.ts */; };
+		420EDC839D5E4765B8C3BA2E /* localization.json in Resources */ = {isa = PBXBuildFile; fileRef = 110CB441409A4AE99B038EB2 /* localization.json */; };
+		575574C151BE40CDA7C839DD /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 757FB55668E4484AB93597B9 /* questions.json */; };
+		9165796C536A4B75B63A99BC /* questions.ts in Resources */ = {isa = PBXBuildFile; fileRef = B393F7245182495180F12B4E /* questions.ts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = "MoDNDynamic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* MoDNDynamicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoDNDynamicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MoDNDynamicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MoDNDynamicTests.m"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MoDNDynamic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoDNDynamic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "MoDNDynamic/AppDelegate.h"; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "MoDNDynamic/AppDelegate.mm"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "MoDNDynamic/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "MoDNDynamic/Info.plist"; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "MoDNDynamic/main.m"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-MoDNDynamic-MoDNDynamicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoDNDynamic-MoDNDynamicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-MoDNDynamic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoDNDynamic.debug.xcconfig"; path = "Target Support Files/Pods-MoDNDynamic/Pods-MoDNDynamic.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-MoDNDynamic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoDNDynamic.release.xcconfig"; path = "Target Support Files/Pods-MoDNDynamic/Pods-MoDNDynamic.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-MoDNDynamic-MoDNDynamicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoDNDynamic-MoDNDynamicTests.debug.xcconfig"; path = "Target Support Files/Pods-MoDNDynamic-MoDNDynamicTests/Pods-MoDNDynamic-MoDNDynamicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-MoDNDynamic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoDNDynamic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "MoDNDynamic/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-MoDNDynamic-MoDNDynamicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoDNDynamic-MoDNDynamicTests.release.xcconfig"; path = "Target Support Files/Pods-MoDNDynamic-MoDNDynamicTests/Pods-MoDNDynamic-MoDNDynamicTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5BD591CB197E4949A3BD8DB3 /* README.md */ = {isa = PBXFileReference; name = "README.md"; path = "../src/Assets/Fonts/README.md"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		55EA8DA46FD443E3BB809466 /* dxfinal_anemia.ort */ = {isa = PBXFileReference; name = "dxfinal_anemia.ort"; path = "../src/Models/decoders/dxfinal_anemia.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D80A00D6D2849119CA9ADD7 /* dxfinal_dehyd.ort */ = {isa = PBXFileReference; name = "dxfinal_dehyd.ort"; path = "../src/Models/decoders/dxfinal_dehyd.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4D3980D8B1504ADA9F6E91CB /* dxfinal_diarrhea.ort */ = {isa = PBXFileReference; name = "dxfinal_diarrhea.ort"; path = "../src/Models/decoders/dxfinal_diarrhea.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F98D2867D0646FEBD4EFA80 /* dxfinal_fws.ort */ = {isa = PBXFileReference; name = "dxfinal_fws.ort"; path = "../src/Models/decoders/dxfinal_fws.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2196D5420ACE4A6D85D57B1B /* dxfinal_malaria.ort */ = {isa = PBXFileReference; name = "dxfinal_malaria.ort"; path = "../src/Models/decoders/dxfinal_malaria.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B870BDC81E804CC282A11629 /* dxfinal_malnut.ort */ = {isa = PBXFileReference; name = "dxfinal_malnut.ort"; path = "../src/Models/decoders/dxfinal_malnut.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		753903C32F8D49A29A0E1CEA /* dxfinal_pna.ort */ = {isa = PBXFileReference; name = "dxfinal_pna.ort"; path = "../src/Models/decoders/dxfinal_pna.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D93BAE22C6894B8088D2FE9A /* dxfinal_urti.ort */ = {isa = PBXFileReference; name = "dxfinal_urti.ort"; path = "../src/Models/decoders/dxfinal_urti.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63041B7CB08349918C6FB1A1 /* a54crp122categorical.ort */ = {isa = PBXFileReference; name = "a54crp122categorical.ort"; path = "../src/Models/encoders/a54crp122categorical.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		013D96189791484FA2DF72BB /* a55urinaryanalysis224.ort */ = {isa = PBXFileReference; name = "a55urinaryanalysis224.ort"; path = "../src/Models/encoders/a55urinaryanalysis224.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6775DFF7E23041A7965985D5 /* a58hivrapidtestofchildinfant444c.ort */ = {isa = PBXFileReference; name = "a58hivrapidtestofchildinfant444c.ort"; path = "../src/Models/encoders/a58hivrapidtestofchildinfant444c.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0026459DBCC4DE38B1575DE /* a70hemoglobingdl3409categorical.ort */ = {isa = PBXFileReference; name = "a70hemoglobingdl3409categorical.ort"; path = "../src/Models/encoders/a70hemoglobingdl3409categorical.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E0987E3595B8468D8AE1C7BC /* a72observebreastfeedingattaching.ort */ = {isa = PBXFileReference; name = "a72observebreastfeedingattaching.ort"; path = "../src/Models/encoders/a72observebreastfeedingattaching.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		18BC449F436F4C208AB8EB59 /* a75appetitetest3487.ort */ = {isa = PBXFileReference; name = "a75appetitetest3487.ort"; path = "../src/Models/encoders/a75appetitetest3487.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE2E89AAA6F64569ABD1FE12 /* a82stoolmicroscopy3821categorica.ort */ = {isa = PBXFileReference; name = "a82stoolmicroscopy3821categorica.ort"; path = "../src/Models/encoders/a82stoolmicroscopy3821categorica.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		10AEF9DD5092464A89B201F5 /* a89oralfluidtest22740.ort */ = {isa = PBXFileReference; name = "a89oralfluidtest22740.ort"; path = "../src/Models/encoders/a89oralfluidtest22740.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F55E798BEE8848B5B74C16F2 /* achildwellappearing3425.ort */ = {isa = PBXFileReference; name = "achildwellappearing3425.ort"; path = "../src/Models/encoders/achildwellappearing3425.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D0CC871349A64F2981495126 /* bc131weightforagezscore7categori.ort */ = {isa = PBXFileReference; name = "bc131weightforagezscore7categori.ort"; path = "../src/Models/encoders/bc131weightforagezscore7categori.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		78F1B741A7AB4B2F99F0B50E /* bc132muacforagezscore99categoric.ort */ = {isa = PBXFileReference; name = "bc132muacforagezscore99categoric.ort"; path = "../src/Models/encoders/bc132muacforagezscore99categoric.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4CB04B3647CB41499889C8CE /* bcaxillarytemperature2144categor.ort */ = {isa = PBXFileReference; name = "bcaxillarytemperature2144categor.ort"; path = "../src/Models/encoders/bcaxillarytemperature2144categor.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		85AE684AA60E48EAA7C0EDEE /* bdageinmonths6categorical.ort */ = {isa = PBXFileReference; name = "bdageinmonths6categorical.ort"; path = "../src/Models/encoders/bdageinmonths6categorical.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		569277C3E5664D14BDAEC828 /* cc10skinhair10.ort */ = {isa = PBXFileReference; name = "cc10skinhair10.ort"; path = "../src/Models/encoders/cc10skinhair10.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		934494ECFE85474D9B32F98D /* cc11eye11.ort */ = {isa = PBXFileReference; name = "cc11eye11.ort"; path = "../src/Models/encoders/cc11eye11.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73C32393D9B54D369711AC30 /* cc12earthroatmouth12.ort */ = {isa = PBXFileReference; name = "cc12earthroatmouth12.ort"; path = "../src/Models/encoders/cc12earthroatmouth12.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		07C3578260A546808A835E4A /* cc13respiratorycoughordifficultb.ort */ = {isa = PBXFileReference; name = "cc13respiratorycoughordifficultb.ort"; path = "../src/Models/encoders/cc13respiratorycoughordifficultb.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7796B04EED8F4068A7D43913 /* cc15genitourinaryutisti213.ort */ = {isa = PBXFileReference; name = "cc15genitourinaryutisti213.ort"; path = "../src/Models/encoders/cc15genitourinaryutisti213.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B432C1FFCC041C5A18E49C8 /* cc16neuroheadachestiffneckneckpa.ort */ = {isa = PBXFileReference; name = "cc16neuroheadachestiffneckneckpa.ort"; path = "../src/Models/encoders/cc16neuroheadachestiffneckneckpa.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1271B28F91A3422B948B8F06 /* cc17gastrointestinaldiarrheavomi.ort */ = {isa = PBXFileReference; name = "cc17gastrointestinaldiarrheavomi.ort"; path = "../src/Models/encoders/cc17gastrointestinaldiarrheavomi.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		757F0D6771B14511863D0263 /* cc18accidentmuskuloskeletalinclb.ort */ = {isa = PBXFileReference; name = "cc18accidentmuskuloskeletalinclb.ort"; path = "../src/Models/encoders/cc18accidentmuskuloskeletalinclb.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF58BA78EA9D40A38241FBF7 /* cc24respiratory3447.ort */ = {isa = PBXFileReference; name = "cc24respiratory3447.ort"; path = "../src/Models/encoders/cc24respiratory3447.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C346FAD756684DAF99D62EC3 /* cc25diarrheaabdominalgastrointes.ort */ = {isa = PBXFileReference; name = "cc25diarrheaabdominalgastrointes.ort"; path = "../src/Models/encoders/cc25diarrheaabdominalgastrointes.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1A805A08DB2467CB7C81C06 /* cc26skin3456.ort */ = {isa = PBXFileReference; name = "cc26skin3456.ort"; path = "../src/Models/encoders/cc26skin3456.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A61E7EC34853406D8ADF5079 /* cc27eyecomplaint3459.ort */ = {isa = PBXFileReference; name = "cc27eyecomplaint3459.ort"; path = "../src/Models/encoders/cc27eyecomplaint3459.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E4CA242D72D94D1F80652F27 /* cc28earormouthcomplaint3460.ort */ = {isa = PBXFileReference; name = "cc28earormouthcomplaint3460.ort"; path = "../src/Models/encoders/cc28earormouthcomplaint3460.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		45C73680FD694691B916A3C8 /* cc29feedingproblemorweightconcer.ort */ = {isa = PBXFileReference; name = "cc29feedingproblemorweightconcer.ort"; path = "../src/Models/encoders/cc29feedingproblemorweightconcer.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9FA098B647CB4D8FAB8B79F0 /* cc30malformationofbirthanomaly34.ort */ = {isa = PBXFileReference; name = "cc30malformationofbirthanomaly34.ort"; path = "../src/Models/encoders/cc30malformationofbirthanomaly34.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D517278C9574A619D9BFA99 /* cc31injuriesbirthandnonbirthrela.ort */ = {isa = PBXFileReference; name = "cc31injuriesbirthandnonbirthrela.ort"; path = "../src/Models/encoders/cc31injuriesbirthandnonbirthrela.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9363693209AE4CC38DDB2685 /* cc32fever3507.ort */ = {isa = PBXFileReference; name = "cc32fever3507.ort"; path = "../src/Models/encoders/cc32fever3507.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6112864DD9CC4F78BDBD6C9E /* ch3hivstatusofpatient104categori.ort */ = {isa = PBXFileReference; name = "ch3hivstatusofpatient104categori.ort"; path = "../src/Models/encoders/ch3hivstatusofpatient104categori.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EB89AC90D0DE4E64B913C83A /* dsex214categorical.ort */ = {isa = PBXFileReference; name = "dsex214categorical.ort"; path = "../src/Models/encoders/dsex214categorical.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		30A1081042674F5D9DCF904B /* e46recentclosecontactwithsomebod.ort */ = {isa = PBXFileReference; name = "e46recentclosecontactwithsomebod.ort"; path = "../src/Models/encoders/e46recentclosecontactwithsomebod.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D408500C8D25460694A1030D /* e78hivstatusofbiologicmother2126.ort */ = {isa = PBXFileReference; name = "e78hivstatusofbiologicmother2126.ort"; path = "../src/Models/encoders/e78hivstatusofbiologicmother2126.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5975153D51C34C8C959A4BAF /* os116convulsingnow1685.ort */ = {isa = PBXFileReference; name = "os116convulsingnow1685.ort"; path = "../src/Models/encoders/os116convulsingnow1685.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		790C7F1C6D974FDFA9D9C289 /* os136oralfluidtest22742.ort */ = {isa = PBXFileReference; name = "os136oralfluidtest22742.ort"; path = "../src/Models/encoders/os136oralfluidtest22742.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5F49D925B324C8FA01E6B77 /* os3barkingcough64.ort */ = {isa = PBXFileReference; name = "os3barkingcough64.ort"; path = "../src/Models/encoders/os3barkingcough64.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4721A4B406FB4789B9A0ECAC /* pe104pityriasisversicolor399.ort */ = {isa = PBXFileReference; name = "pe104pityriasisversicolor399.ort"; path = "../src/Models/encoders/pe104pityriasisversicolor399.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BCEB8CE2CB2E404F99C4A0D9 /* pe108diaperrash409.ort */ = {isa = PBXFileReference; name = "pe108diaperrash409.ort"; path = "../src/Models/encoders/pe108diaperrash409.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E64B0DE7E954A84A7014717 /* pe109scarletfeverrash411.ort */ = {isa = PBXFileReference; name = "pe109scarletfeverrash411.ort"; path = "../src/Models/encoders/pe109scarletfeverrash411.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5F99F6DB105C4FA98D6CCC09 /* pe128skinpustulesorblisters2120.ort */ = {isa = PBXFileReference; name = "pe128skinpustulesorblisters2120.ort"; path = "../src/Models/encoders/pe128skinpustulesorblisters2120.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6F9B3B6895747008D203233 /* pe133grunting2974.ort */ = {isa = PBXFileReference; name = "pe133grunting2974.ort"; path = "../src/Models/encoders/pe133grunting2974.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		250F53C76884456E8C4E2FC7 /* pe134measlesrashandassociatedsig.ort */ = {isa = PBXFileReference; name = "pe134measlesrashandassociatedsig.ort"; path = "../src/Models/encoders/pe134measlesrashandassociatedsig.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9A85D51870243AE8B2748C3 /* pe162umbilicusredorswollen3288.ort */ = {isa = PBXFileReference; name = "pe162umbilicusredorswollen3288.ort"; path = "../src/Models/encoders/pe162umbilicusredorswollen3288.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9FBAB97AD51E48D385451FD4 /* pe192patientunabletofinishsenten.ort */ = {isa = PBXFileReference; name = "pe192patientunabletofinishsenten.ort"; path = "../src/Models/encoders/pe192patientunabletofinishsenten.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D1844713BCBA4150956FB251 /* pe194conjunctivalpallor3361.ort */ = {isa = PBXFileReference; name = "pe194conjunctivalpallor3361.ort"; path = "../src/Models/encoders/pe194conjunctivalpallor3361.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC1146C4A34E44B8A79CC884 /* pe195palmarpallor3364.ort */ = {isa = PBXFileReference; name = "pe195palmarpallor3364.ort"; path = "../src/Models/encoders/pe195palmarpallor3364.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C80D334E94043078F122C76 /* pe196severeconjunctivalpallor337.ort */ = {isa = PBXFileReference; name = "pe196severeconjunctivalpallor337.ort"; path = "../src/Models/encoders/pe196severeconjunctivalpallor337.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D7196AB6FE44A8AADD70400 /* pe197severepalmarpallor3380.ort */ = {isa = PBXFileReference; name = "pe197severepalmarpallor3380.ort"; path = "../src/Models/encoders/pe197severepalmarpallor3380.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		681D5BBB56234CA293EE98F7 /* pe19stridorincalmchild19.ort */ = {isa = PBXFileReference; name = "pe19stridorincalmchild19.ort"; path = "../src/Models/encoders/pe19stridorincalmchild19.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9FFE1CDCEDA4AFAAAED5161 /* pe201skinpinch3450.ort */ = {isa = PBXFileReference; name = "pe201skinpinch3450.ort"; path = "../src/Models/encoders/pe201skinpinch3450.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7D83FAF412CB4F01971184BC /* pe214bloodoxygensaturation3547ca.ort */ = {isa = PBXFileReference; name = "pe214bloodoxygensaturation3547ca.ort"; path = "../src/Models/encoders/pe214bloodoxygensaturation3547ca.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7F12763E3A2455BA497FE08 /* pe219visiblerespiratoryratewarni.ort */ = {isa = PBXFileReference; name = "pe219visiblerespiratoryratewarni.ort"; path = "../src/Models/encoders/pe219visiblerespiratoryratewarni.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		584E984E07CA4A36965B9215 /* pe220identifiablesourceoffever45.ort */ = {isa = PBXFileReference; name = "pe220identifiablesourceoffever45.ort"; path = "../src/Models/encoders/pe220identifiablesourceoffever45.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		29238A8D268C4F7FA72111B3 /* pe229somethingiswrongclinicianin.ort */ = {isa = PBXFileReference; name = "pe229somethingiswrongclinicianin.ort"; path = "../src/Models/encoders/pe229somethingiswrongclinicianin.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A4BE6FEE997D45629EC85CDE /* pe50herpanginavesiculesinmouth18.ort */ = {isa = PBXFileReference; name = "pe50herpanginavesiculesinmouth18.ort"; path = "../src/Models/encoders/pe50herpanginavesiculesinmouth18.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ACD4FC56F306446E9EC10601 /* pe63stiffneck266.ort */ = {isa = PBXFileReference; name = "pe63stiffneck266.ort"; path = "../src/Models/encoders/pe63stiffneck266.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BAC3DD821A204145A7336B23 /* pe65severeabdominalpalpationneed.ort */ = {isa = PBXFileReference; name = "pe65severeabdominalpalpationneed.ort"; path = "../src/Models/encoders/pe65severeabdominalpalpationneed.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D54603C3CA3451E84BC0E18 /* pe69woundinfectionpuswarmthorswe.ort */ = {isa = PBXFileReference; name = "pe69woundinfectionpuswarmthorswe.ort"; path = "../src/Models/encoders/pe69woundinfectionpuswarmthorswe.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BE73D8FF6FFD47BE8D3D48DF /* pe83largeareaofwarmpinkandtender.ort */ = {isa = PBXFileReference; name = "pe83largeareaofwarmpinkandtender.ort"; path = "../src/Models/encoders/pe83largeareaofwarmpinkandtender.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		71938A5224A443CF92845BB0 /* pe84abscesslocatedonface364.ort */ = {isa = PBXFileReference; name = "pe84abscesslocatedonface364.ort"; path = "../src/Models/encoders/pe84abscesslocatedonface364.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3C94CDDEE2284F9CB17075B0 /* pe97oralherpes384.ort */ = {isa = PBXFileReference; name = "pe97oralherpes384.ort"; path = "../src/Models/encoders/pe97oralherpes384.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF200EA05B2B4C93A9AFAEFE /* pe99extensiveskindisease388.ort */ = {isa = PBXFileReference; name = "pe99extensiveskindisease388.ort"; path = "../src/Models/encoders/pe99extensiveskindisease388.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CFAFC26374B44F2CA4A07A45 /* peexamineinsideofmouthabnormal25.ort */ = {isa = PBXFileReference; name = "peexamineinsideofmouthabnormal25.ort"; path = "../src/Models/encoders/peexamineinsideofmouthabnormal25.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		45145BEF71D84862AB0E8679 /* peoralcandidiasisoralthrush190.ort */ = {isa = PBXFileReference; name = "peoralcandidiasisoralthrush190.ort"; path = "../src/Models/encoders/peoralcandidiasisoralthrush190.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		77E2E10969D4491B88ED0885 /* pesizeofimpetigolesionsbiggertha.ort */ = {isa = PBXFileReference; name = "pesizeofimpetigolesionsbiggertha.ort"; path = "../src/Models/encoders/pesizeofimpetigolesionsbiggertha.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD8AF1D187B6415BA09BD084 /* petendercolouredorirreducibleher.ort */ = {isa = PBXFileReference; name = "petendercolouredorirreducibleher.ort"; path = "../src/Models/encoders/petendercolouredorirreducibleher.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8BE4924F71BE4359BA8DFDC3 /* s103eatingbreastfeedingalotlesst.ort */ = {isa = PBXFileReference; name = "s103eatingbreastfeedingalotlesst.ort"; path = "../src/Models/encoders/s103eatingbreastfeedingalotlesst.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B7FCADC1EF44AA594A6AA61 /* s104durationofdiarrheadays295cat.ort */ = {isa = PBXFileReference; name = "s104durationofdiarrheadays295cat.ort"; path = "../src/Models/encoders/s104durationofdiarrheadays295cat.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		35D1BD4EC01B407782A86EB2 /* s124significantweightloss1746.ort */ = {isa = PBXFileReference; name = "s124significantweightloss1746.ort"; path = "../src/Models/encoders/s124significantweightloss1746.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DCA8A709CAE54D4C96E4F214 /* s141estimatedgestationalage2129.ort */ = {isa = PBXFileReference; name = "s141estimatedgestationalage2129.ort"; path = "../src/Models/encoders/s141estimatedgestationalage2129.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5125241AC1164000B1F79D04 /* s149yellowappearingskinoreyesjau.ort */ = {isa = PBXFileReference; name = "s149yellowappearingskinoreyesjau.ort"; path = "../src/Models/encoders/s149yellowappearingskinoreyesjau.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A23667FBC8CD40BA9F85643D /* s150painorswellingofgenitals2977.ort */ = {isa = PBXFileReference; name = "s150painorswellingofgenitals2977.ort"; path = "../src/Models/encoders/s150painorswellingofgenitals2977.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		426FFA05D55D42E9A88C4D9B /* s159reportofprobleminproducingsu.ort */ = {isa = PBXFileReference; name = "s159reportofprobleminproducingsu.ort"; path = "../src/Models/encoders/s159reportofprobleminproducingsu.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0368B11314E843808C66E29D /* s219constipationlessfrequentandh.ort */ = {isa = PBXFileReference; name = "s219constipationlessfrequentandh.ort"; path = "../src/Models/encoders/s219constipationlessfrequentandh.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D6C97B8256E48A38F916E8A /* s39cough39.ort */ = {isa = PBXFileReference; name = "s39cough39.ort"; path = "../src/Models/encoders/s39cough39.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65FFD97E1E9E494583847A76 /* s40difficultybreathing40.ort */ = {isa = PBXFileReference; name = "s40difficultybreathing40.ort"; path = "../src/Models/encoders/s40difficultybreathing40.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01B462D899774EC0A2A06506 /* s42durationoffeverdays42categori.ort */ = {isa = PBXFileReference; name = "s42durationoffeverdays42categori.ort"; path = "../src/Models/encoders/s42durationoffeverdays42categori.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		747D18B042E9463A8C85E84C /* s46convulsionsinpresentillness88.ort */ = {isa = PBXFileReference; name = "s46convulsionsinpresentillness88.ort"; path = "../src/Models/encoders/s46convulsionsinpresentillness88.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		58CCA4F9517843EC88A5314B /* s51toothpain163.ort */ = {isa = PBXFileReference; name = "s51toothpain163.ort"; path = "../src/Models/encoders/s51toothpain163.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F5B5F0AF30DD405D8552CB5C /* s57foreignbodyinear178.ort */ = {isa = PBXFileReference; name = "s57foreignbodyinear178.ort"; path = "../src/Models/encoders/s57foreignbodyinear178.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		63508866D9FD43FE9FE4EA10 /* s58mouthpain181.ort */ = {isa = PBXFileReference; name = "s58mouthpain181.ort"; path = "../src/Models/encoders/s58mouthpain181.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D177E99C826C41E6907C4DE8 /* s61headache196.ort */ = {isa = PBXFileReference; name = "s61headache196.ort"; path = "../src/Models/encoders/s61headache196.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F2E9E0DF5174709B14FE1F1 /* s63runnyorblockednose199.ort */ = {isa = PBXFileReference; name = "s63runnyorblockednose199.ort"; path = "../src/Models/encoders/s63runnyorblockednose199.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F145BAEEEF0C463EA0487E53 /* s64looseorliquidstoolsdiarrhea20.ort */ = {isa = PBXFileReference; name = "s64looseorliquidstoolsdiarrhea20.ort"; path = "../src/Models/encoders/s64looseorliquidstoolsdiarrhea20.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5986D755EB454B769E04FF88 /* s73painordifficultyurinating221.ort */ = {isa = PBXFileReference; name = "s73painordifficultyurinating221.ort"; path = "../src/Models/encoders/s73painordifficultyurinating221.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D43304B633A484FA96420E6 /* s84analitching254.ort */ = {isa = PBXFileReference; name = "s84analitching254.ort"; path = "../src/Models/encoders/s84analitching254.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B746D52139B47E7AFEC4CC6 /* s91neckpainorstiffness269.ort */ = {isa = PBXFileReference; name = "s91neckpainorstiffness269.ort"; path = "../src/Models/encoders/s91neckpainorstiffness269.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2B26771D6C440029DAED41F /* s92headtrauma272.ort */ = {isa = PBXFileReference; name = "s92headtrauma272.ort"; path = "../src/Models/encoders/s92headtrauma272.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5BA40D348455447A850371C9 /* s94vomiting276.ort */ = {isa = PBXFileReference; name = "s94vomiting276.ort"; path = "../src/Models/encoders/s94vomiting276.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6BE69E8201F346FDBD9602A8 /* s97biliousvomit279.ort */ = {isa = PBXFileReference; name = "s97biliousvomit279.ort"; path = "../src/Models/encoders/s97biliousvomit279.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C9C32FCABCF442EEB8D5EC28 /* sfeverinthisillness25.ort */ = {isa = PBXFileReference; name = "sfeverinthisillness25.ort"; path = "../src/Models/encoders/sfeverinthisillness25.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B5A51AB4404C459EA8469092 /* ut10lifethreateningemergencyobst.ort */ = {isa = PBXFileReference; name = "ut10lifethreateningemergencyobst.ort"; path = "../src/Models/encoders/ut10lifethreateningemergencyobst.ort"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7BE4FF8E2E9D488E94B5CF35 /* names.json */ = {isa = PBXFileReference; name = "names.json"; path = "../src/Models/names.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F42305B62E234DD1AD03BC4D /* converter.ts */ = {isa = PBXFileReference; name = "converter.ts"; path = "../src/Models/converter.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		380B6C67A04D4D12A2926D4F /* decoders.json */ = {isa = PBXFileReference; name = "decoders.json"; path = "../src/Models/decoders.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		461C83D6B36442E7AD987168 /* decoders.ts */ = {isa = PBXFileReference; name = "decoders.ts"; path = "../src/Models/decoders.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		110CB441409A4AE99B038EB2 /* localization.json */ = {isa = PBXFileReference; name = "localization.json"; path = "../src/Models/localization.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		757FB55668E4484AB93597B9 /* questions.json */ = {isa = PBXFileReference; name = "questions.json"; path = "../src/Models/questions.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B393F7245182495180F12B4E /* questions.ts */ = {isa = PBXFileReference; name = "questions.ts"; path = "../src/Models/questions.ts"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-MoDNDynamic-MoDNDynamicTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-MoDNDynamic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* MoDNDynamicTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* MoDNDynamicTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = "MoDNDynamicTests";
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* MoDNDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = "MoDNDynamic";
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-MoDNDynamic.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-MoDNDynamic-MoDNDynamicTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* MoDNDynamic */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* MoDNDynamicTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6C7551A8A2984718AC22DCE9 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* MoDNDynamic.app */,
+				00E356EE1AD99517003FC87E /* MoDNDynamicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-MoDNDynamic.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-MoDNDynamic.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-MoDNDynamic-MoDNDynamicTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-MoDNDynamic-MoDNDynamicTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C7551A8A2984718AC22DCE9 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5BD591CB197E4949A3BD8DB3 /* README.md */,
+				55EA8DA46FD443E3BB809466 /* dxfinal_anemia.ort */,
+				2D80A00D6D2849119CA9ADD7 /* dxfinal_dehyd.ort */,
+				4D3980D8B1504ADA9F6E91CB /* dxfinal_diarrhea.ort */,
+				1F98D2867D0646FEBD4EFA80 /* dxfinal_fws.ort */,
+				2196D5420ACE4A6D85D57B1B /* dxfinal_malaria.ort */,
+				B870BDC81E804CC282A11629 /* dxfinal_malnut.ort */,
+				753903C32F8D49A29A0E1CEA /* dxfinal_pna.ort */,
+				D93BAE22C6894B8088D2FE9A /* dxfinal_urti.ort */,
+				63041B7CB08349918C6FB1A1 /* a54crp122categorical.ort */,
+				013D96189791484FA2DF72BB /* a55urinaryanalysis224.ort */,
+				6775DFF7E23041A7965985D5 /* a58hivrapidtestofchildinfant444c.ort */,
+				E0026459DBCC4DE38B1575DE /* a70hemoglobingdl3409categorical.ort */,
+				E0987E3595B8468D8AE1C7BC /* a72observebreastfeedingattaching.ort */,
+				18BC449F436F4C208AB8EB59 /* a75appetitetest3487.ort */,
+				BE2E89AAA6F64569ABD1FE12 /* a82stoolmicroscopy3821categorica.ort */,
+				10AEF9DD5092464A89B201F5 /* a89oralfluidtest22740.ort */,
+				F55E798BEE8848B5B74C16F2 /* achildwellappearing3425.ort */,
+				D0CC871349A64F2981495126 /* bc131weightforagezscore7categori.ort */,
+				78F1B741A7AB4B2F99F0B50E /* bc132muacforagezscore99categoric.ort */,
+				4CB04B3647CB41499889C8CE /* bcaxillarytemperature2144categor.ort */,
+				85AE684AA60E48EAA7C0EDEE /* bdageinmonths6categorical.ort */,
+				569277C3E5664D14BDAEC828 /* cc10skinhair10.ort */,
+				934494ECFE85474D9B32F98D /* cc11eye11.ort */,
+				73C32393D9B54D369711AC30 /* cc12earthroatmouth12.ort */,
+				07C3578260A546808A835E4A /* cc13respiratorycoughordifficultb.ort */,
+				7796B04EED8F4068A7D43913 /* cc15genitourinaryutisti213.ort */,
+				3B432C1FFCC041C5A18E49C8 /* cc16neuroheadachestiffneckneckpa.ort */,
+				1271B28F91A3422B948B8F06 /* cc17gastrointestinaldiarrheavomi.ort */,
+				757F0D6771B14511863D0263 /* cc18accidentmuskuloskeletalinclb.ort */,
+				CF58BA78EA9D40A38241FBF7 /* cc24respiratory3447.ort */,
+				C346FAD756684DAF99D62EC3 /* cc25diarrheaabdominalgastrointes.ort */,
+				F1A805A08DB2467CB7C81C06 /* cc26skin3456.ort */,
+				A61E7EC34853406D8ADF5079 /* cc27eyecomplaint3459.ort */,
+				E4CA242D72D94D1F80652F27 /* cc28earormouthcomplaint3460.ort */,
+				45C73680FD694691B916A3C8 /* cc29feedingproblemorweightconcer.ort */,
+				9FA098B647CB4D8FAB8B79F0 /* cc30malformationofbirthanomaly34.ort */,
+				8D517278C9574A619D9BFA99 /* cc31injuriesbirthandnonbirthrela.ort */,
+				9363693209AE4CC38DDB2685 /* cc32fever3507.ort */,
+				6112864DD9CC4F78BDBD6C9E /* ch3hivstatusofpatient104categori.ort */,
+				EB89AC90D0DE4E64B913C83A /* dsex214categorical.ort */,
+				30A1081042674F5D9DCF904B /* e46recentclosecontactwithsomebod.ort */,
+				D408500C8D25460694A1030D /* e78hivstatusofbiologicmother2126.ort */,
+				5975153D51C34C8C959A4BAF /* os116convulsingnow1685.ort */,
+				790C7F1C6D974FDFA9D9C289 /* os136oralfluidtest22742.ort */,
+				A5F49D925B324C8FA01E6B77 /* os3barkingcough64.ort */,
+				4721A4B406FB4789B9A0ECAC /* pe104pityriasisversicolor399.ort */,
+				BCEB8CE2CB2E404F99C4A0D9 /* pe108diaperrash409.ort */,
+				1E64B0DE7E954A84A7014717 /* pe109scarletfeverrash411.ort */,
+				5F99F6DB105C4FA98D6CCC09 /* pe128skinpustulesorblisters2120.ort */,
+				C6F9B3B6895747008D203233 /* pe133grunting2974.ort */,
+				250F53C76884456E8C4E2FC7 /* pe134measlesrashandassociatedsig.ort */,
+				D9A85D51870243AE8B2748C3 /* pe162umbilicusredorswollen3288.ort */,
+				9FBAB97AD51E48D385451FD4 /* pe192patientunabletofinishsenten.ort */,
+				D1844713BCBA4150956FB251 /* pe194conjunctivalpallor3361.ort */,
+				CC1146C4A34E44B8A79CC884 /* pe195palmarpallor3364.ort */,
+				7C80D334E94043078F122C76 /* pe196severeconjunctivalpallor337.ort */,
+				5D7196AB6FE44A8AADD70400 /* pe197severepalmarpallor3380.ort */,
+				681D5BBB56234CA293EE98F7 /* pe19stridorincalmchild19.ort */,
+				B9FFE1CDCEDA4AFAAAED5161 /* pe201skinpinch3450.ort */,
+				7D83FAF412CB4F01971184BC /* pe214bloodoxygensaturation3547ca.ort */,
+				F7F12763E3A2455BA497FE08 /* pe219visiblerespiratoryratewarni.ort */,
+				584E984E07CA4A36965B9215 /* pe220identifiablesourceoffever45.ort */,
+				29238A8D268C4F7FA72111B3 /* pe229somethingiswrongclinicianin.ort */,
+				A4BE6FEE997D45629EC85CDE /* pe50herpanginavesiculesinmouth18.ort */,
+				ACD4FC56F306446E9EC10601 /* pe63stiffneck266.ort */,
+				BAC3DD821A204145A7336B23 /* pe65severeabdominalpalpationneed.ort */,
+				8D54603C3CA3451E84BC0E18 /* pe69woundinfectionpuswarmthorswe.ort */,
+				BE73D8FF6FFD47BE8D3D48DF /* pe83largeareaofwarmpinkandtender.ort */,
+				71938A5224A443CF92845BB0 /* pe84abscesslocatedonface364.ort */,
+				3C94CDDEE2284F9CB17075B0 /* pe97oralherpes384.ort */,
+				BF200EA05B2B4C93A9AFAEFE /* pe99extensiveskindisease388.ort */,
+				CFAFC26374B44F2CA4A07A45 /* peexamineinsideofmouthabnormal25.ort */,
+				45145BEF71D84862AB0E8679 /* peoralcandidiasisoralthrush190.ort */,
+				77E2E10969D4491B88ED0885 /* pesizeofimpetigolesionsbiggertha.ort */,
+				FD8AF1D187B6415BA09BD084 /* petendercolouredorirreducibleher.ort */,
+				8BE4924F71BE4359BA8DFDC3 /* s103eatingbreastfeedingalotlesst.ort */,
+				3B7FCADC1EF44AA594A6AA61 /* s104durationofdiarrheadays295cat.ort */,
+				35D1BD4EC01B407782A86EB2 /* s124significantweightloss1746.ort */,
+				DCA8A709CAE54D4C96E4F214 /* s141estimatedgestationalage2129.ort */,
+				5125241AC1164000B1F79D04 /* s149yellowappearingskinoreyesjau.ort */,
+				A23667FBC8CD40BA9F85643D /* s150painorswellingofgenitals2977.ort */,
+				426FFA05D55D42E9A88C4D9B /* s159reportofprobleminproducingsu.ort */,
+				0368B11314E843808C66E29D /* s219constipationlessfrequentandh.ort */,
+				0D6C97B8256E48A38F916E8A /* s39cough39.ort */,
+				65FFD97E1E9E494583847A76 /* s40difficultybreathing40.ort */,
+				01B462D899774EC0A2A06506 /* s42durationoffeverdays42categori.ort */,
+				747D18B042E9463A8C85E84C /* s46convulsionsinpresentillness88.ort */,
+				58CCA4F9517843EC88A5314B /* s51toothpain163.ort */,
+				F5B5F0AF30DD405D8552CB5C /* s57foreignbodyinear178.ort */,
+				63508866D9FD43FE9FE4EA10 /* s58mouthpain181.ort */,
+				D177E99C826C41E6907C4DE8 /* s61headache196.ort */,
+				4F2E9E0DF5174709B14FE1F1 /* s63runnyorblockednose199.ort */,
+				F145BAEEEF0C463EA0487E53 /* s64looseorliquidstoolsdiarrhea20.ort */,
+				5986D755EB454B769E04FF88 /* s73painordifficultyurinating221.ort */,
+				9D43304B633A484FA96420E6 /* s84analitching254.ort */,
+				0B746D52139B47E7AFEC4CC6 /* s91neckpainorstiffness269.ort */,
+				D2B26771D6C440029DAED41F /* s92headtrauma272.ort */,
+				5BA40D348455447A850371C9 /* s94vomiting276.ort */,
+				6BE69E8201F346FDBD9602A8 /* s97biliousvomit279.ort */,
+				C9C32FCABCF442EEB8D5EC28 /* sfeverinthisillness25.ort */,
+				B5A51AB4404C459EA8469092 /* ut10lifethreateningemergencyobst.ort */,
+				7BE4FF8E2E9D488E94B5CF35 /* names.json */,
+				F42305B62E234DD1AD03BC4D /* converter.ts */,
+				380B6C67A04D4D12A2926D4F /* decoders.json */,
+				461C83D6B36442E7AD987168 /* decoders.ts */,
+				110CB441409A4AE99B038EB2 /* localization.json */,
+				757FB55668E4484AB93597B9 /* questions.json */,
+				B393F7245182495180F12B4E /* questions.ts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* MoDNDynamicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoDNDynamicTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = MoDNDynamicTests;
+			productName = MoDNDynamicTests;
+			productReference = 00E356EE1AD99517003FC87E /* MoDNDynamicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* MoDNDynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoDNDynamic" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MoDNDynamic";
+			productName = "MoDNDynamic";
+			productReference = 13B07F961A680F5B00A75B9A /* MoDNDynamic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MoDNDynamic" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* MoDNDynamic */,
+				00E356ED1AD99517003FC87E /* MoDNDynamicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E8B5D1CFCF404FB88E0CB5E5 /* README.md in Resources */,
+				6C383CE6CE834BF19B580E96 /* dxfinal_anemia.ort in Resources */,
+				842D709958FF4C20A8F8F2A8 /* dxfinal_dehyd.ort in Resources */,
+				6911BAD39D524E38B5611442 /* dxfinal_diarrhea.ort in Resources */,
+				AF378F49133048FA93F5C163 /* dxfinal_fws.ort in Resources */,
+				885B9DD5322847CF96F858A1 /* dxfinal_malaria.ort in Resources */,
+				7392D7BD75454372BE5C6B54 /* dxfinal_malnut.ort in Resources */,
+				07F7CA237ED64A98A8844A55 /* dxfinal_pna.ort in Resources */,
+				BB8A69BD12B8479A80AC0400 /* dxfinal_urti.ort in Resources */,
+				4EEFBC5BB9C64A36BC1B3F87 /* a54crp122categorical.ort in Resources */,
+				DBEFC47B58CB44C3B61C5B12 /* a55urinaryanalysis224.ort in Resources */,
+				041EB771E8B94F6B8F64E654 /* a58hivrapidtestofchildinfant444c.ort in Resources */,
+				A1239470FAB64350879FB55E /* a70hemoglobingdl3409categorical.ort in Resources */,
+				C2012A9756C8415AB2E27F8A /* a72observebreastfeedingattaching.ort in Resources */,
+				F7068D5D64934820A23F8507 /* a75appetitetest3487.ort in Resources */,
+				42C932DF27904CE7850A1E24 /* a82stoolmicroscopy3821categorica.ort in Resources */,
+				8E742B845C184E5281B387F9 /* a89oralfluidtest22740.ort in Resources */,
+				335387377DB947B7A01E7390 /* achildwellappearing3425.ort in Resources */,
+				DE8A21FEB2C84496A28FA400 /* bc131weightforagezscore7categori.ort in Resources */,
+				58B6F7C317E14A348CB10660 /* bc132muacforagezscore99categoric.ort in Resources */,
+				8D999D99986947B8BB6B1B5A /* bcaxillarytemperature2144categor.ort in Resources */,
+				0F5EDCA55CEA45E7AC705502 /* bdageinmonths6categorical.ort in Resources */,
+				27F088F96C7F484C87088B3E /* cc10skinhair10.ort in Resources */,
+				4F6EE68843D8417ABE15A84B /* cc11eye11.ort in Resources */,
+				F53462D7B9BC4694A7579157 /* cc12earthroatmouth12.ort in Resources */,
+				DE3A8FA5F33046E18F6D8C6D /* cc13respiratorycoughordifficultb.ort in Resources */,
+				078D0A397A7F42D5A7BB6390 /* cc15genitourinaryutisti213.ort in Resources */,
+				430E0FE30508419FA68D9D3B /* cc16neuroheadachestiffneckneckpa.ort in Resources */,
+				E0C96EA3403F4F8FBE6C5D88 /* cc17gastrointestinaldiarrheavomi.ort in Resources */,
+				FC3EAA07E5E44D3BAA8846EB /* cc18accidentmuskuloskeletalinclb.ort in Resources */,
+				33370D026D3B459EBB9FC27C /* cc24respiratory3447.ort in Resources */,
+				9E1A897188BB49C993C09714 /* cc25diarrheaabdominalgastrointes.ort in Resources */,
+				3E69467BE3D84E5391263EE0 /* cc26skin3456.ort in Resources */,
+				FB2DAFA773CA4856AA015D51 /* cc27eyecomplaint3459.ort in Resources */,
+				462851D82504405FB34F5D37 /* cc28earormouthcomplaint3460.ort in Resources */,
+				21B5D0CDC41B4283BEE1D418 /* cc29feedingproblemorweightconcer.ort in Resources */,
+				09FE0A407468459EB033A1B2 /* cc30malformationofbirthanomaly34.ort in Resources */,
+				4335BD69AB404884BB529EC8 /* cc31injuriesbirthandnonbirthrela.ort in Resources */,
+				346E752B1E55479591846C81 /* cc32fever3507.ort in Resources */,
+				8CA60E069E0D4430ABF9DA88 /* ch3hivstatusofpatient104categori.ort in Resources */,
+				BE705DA958544D1E99C20C61 /* dsex214categorical.ort in Resources */,
+				FE34D87071C4489F8DF68BEA /* e46recentclosecontactwithsomebod.ort in Resources */,
+				F21263A457EF495AB512761C /* e78hivstatusofbiologicmother2126.ort in Resources */,
+				8AE7E13C176F4CE88A128B56 /* os116convulsingnow1685.ort in Resources */,
+				0EB7E6D166914CF39C8487F4 /* os136oralfluidtest22742.ort in Resources */,
+				1AA4C1B335644900B908F58B /* os3barkingcough64.ort in Resources */,
+				097C0DF043D742FF9CA2694D /* pe104pityriasisversicolor399.ort in Resources */,
+				390340F4957948C0AAE8C9AE /* pe108diaperrash409.ort in Resources */,
+				D8D3CB05F23B4A3EB666A999 /* pe109scarletfeverrash411.ort in Resources */,
+				ED68ECD137174CE09F0829E0 /* pe128skinpustulesorblisters2120.ort in Resources */,
+				E8869ED3E876492B8C520E70 /* pe133grunting2974.ort in Resources */,
+				E8D42B16D8374D2DA0B8EDCF /* pe134measlesrashandassociatedsig.ort in Resources */,
+				96831CA1D9FF4E35AAED82E7 /* pe162umbilicusredorswollen3288.ort in Resources */,
+				405A84B8A7BB4131A18E8B19 /* pe192patientunabletofinishsenten.ort in Resources */,
+				82CB47DC2AEB441A8EF17CFA /* pe194conjunctivalpallor3361.ort in Resources */,
+				AB448BA2856E4870982A5766 /* pe195palmarpallor3364.ort in Resources */,
+				9A76E47C6D1943E58A9271D8 /* pe196severeconjunctivalpallor337.ort in Resources */,
+				309933576F854DB0BC5AA354 /* pe197severepalmarpallor3380.ort in Resources */,
+				00F164B0FF7441B189D31C16 /* pe19stridorincalmchild19.ort in Resources */,
+				CC69AE010D8C4678A288AC48 /* pe201skinpinch3450.ort in Resources */,
+				695D457366834E3AAD0FEA26 /* pe214bloodoxygensaturation3547ca.ort in Resources */,
+				2BE2867FDD7043058D67D036 /* pe219visiblerespiratoryratewarni.ort in Resources */,
+				2825D3F8EF994C1CB39AD015 /* pe220identifiablesourceoffever45.ort in Resources */,
+				F281D742CAF945A2BAB7EB18 /* pe229somethingiswrongclinicianin.ort in Resources */,
+				DFE19DC0C8E64EA28454B8FE /* pe50herpanginavesiculesinmouth18.ort in Resources */,
+				EE370EFC3379449995F4EC63 /* pe63stiffneck266.ort in Resources */,
+				7ABA64FF9D6147EB8EF80D94 /* pe65severeabdominalpalpationneed.ort in Resources */,
+				CCB8705F8E264F898320B40C /* pe69woundinfectionpuswarmthorswe.ort in Resources */,
+				6387BB432BBC48F7A9377C48 /* pe83largeareaofwarmpinkandtender.ort in Resources */,
+				5A776629950A4F838618DBEB /* pe84abscesslocatedonface364.ort in Resources */,
+				433B901EE4BF4D3FBCFFC3B8 /* pe97oralherpes384.ort in Resources */,
+				CFC389E81F8C4EE4973A449E /* pe99extensiveskindisease388.ort in Resources */,
+				7BD9B541D5A04873994F94A2 /* peexamineinsideofmouthabnormal25.ort in Resources */,
+				092FF1337C514494A7FCCA29 /* peoralcandidiasisoralthrush190.ort in Resources */,
+				4E2380CFA1AC49A68A59BABD /* pesizeofimpetigolesionsbiggertha.ort in Resources */,
+				A51C78FA570747D4B3453585 /* petendercolouredorirreducibleher.ort in Resources */,
+				A79AF6554FD348D0A6A7DEC4 /* s103eatingbreastfeedingalotlesst.ort in Resources */,
+				40AF29B5185D4F1682CE2CB9 /* s104durationofdiarrheadays295cat.ort in Resources */,
+				154F43F83BB544DA9CF1EED1 /* s124significantweightloss1746.ort in Resources */,
+				13C7D5F826FF4E168472AC51 /* s141estimatedgestationalage2129.ort in Resources */,
+				DFEB0EC0ACC641BFBAA36914 /* s149yellowappearingskinoreyesjau.ort in Resources */,
+				B10594F20BC74979842BA0B7 /* s150painorswellingofgenitals2977.ort in Resources */,
+				A0D9266ED29B4CD1B877C07D /* s159reportofprobleminproducingsu.ort in Resources */,
+				DAC392F6F50C42C4B2B58944 /* s219constipationlessfrequentandh.ort in Resources */,
+				D38D32BB669444709C9B6331 /* s39cough39.ort in Resources */,
+				99330E544F6C4769B0E72DF7 /* s40difficultybreathing40.ort in Resources */,
+				BED3BAF699ED47E0BC83EC5E /* s42durationoffeverdays42categori.ort in Resources */,
+				5E4FB01531D14A059D4CF849 /* s46convulsionsinpresentillness88.ort in Resources */,
+				7061F0B0A7E24FA399FC6BC3 /* s51toothpain163.ort in Resources */,
+				E7E6ABE62E9343A493C58448 /* s57foreignbodyinear178.ort in Resources */,
+				FC57B41D751E4F43BAC14CCE /* s58mouthpain181.ort in Resources */,
+				0A4CA420D0954C72953CD5D2 /* s61headache196.ort in Resources */,
+				FC5E6CFA4D464000B307316B /* s63runnyorblockednose199.ort in Resources */,
+				777B14D14E184CD190EF6EF8 /* s64looseorliquidstoolsdiarrhea20.ort in Resources */,
+				69201FC2AFBE448A86C4A452 /* s73painordifficultyurinating221.ort in Resources */,
+				289B93208A594EB9B89D9ADC /* s84analitching254.ort in Resources */,
+				73A8F4BF62B24FEA97F2C749 /* s91neckpainorstiffness269.ort in Resources */,
+				60F756DC71AE4AB4908CF582 /* s92headtrauma272.ort in Resources */,
+				DA33ECC2214141379C546A12 /* s94vomiting276.ort in Resources */,
+				766A78C039244AB1A9C9056B /* s97biliousvomit279.ort in Resources */,
+				C4A774189C9F476287A43EC3 /* sfeverinthisillness25.ort in Resources */,
+				50F5476C19E44A8E9F3B1FFC /* ut10lifethreateningemergencyobst.ort in Resources */,
+				970262067A1241008A54E038 /* names.json in Resources */,
+				A5D00BF90EE841B2829EF209 /* converter.ts in Resources */,
+				A54EC2BE797C470C8809C054 /* decoders.json in Resources */,
+				00837443A9004E38B66658CA /* decoders.ts in Resources */,
+				420EDC839D5E4765B8C3BA2E /* localization.json in Resources */,
+				575574C151BE40CDA7C839DD /* questions.json in Resources */,
+				9165796C536A4B75B63A99BC /* questions.ts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic/Pods-MoDNDynamic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic/Pods-MoDNDynamic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic/Pods-MoDNDynamic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoDNDynamic-MoDNDynamicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoDNDynamic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic-MoDNDynamicTests/Pods-MoDNDynamic-MoDNDynamicTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic-MoDNDynamicTests/Pods-MoDNDynamic-MoDNDynamicTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic-MoDNDynamicTests/Pods-MoDNDynamic-MoDNDynamicTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic/Pods-MoDNDynamic-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic/Pods-MoDNDynamic-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic/Pods-MoDNDynamic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic-MoDNDynamicTests/Pods-MoDNDynamic-MoDNDynamicTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic-MoDNDynamicTests/Pods-MoDNDynamic-MoDNDynamicTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoDNDynamic-MoDNDynamicTests/Pods-MoDNDynamic-MoDNDynamicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* MoDNDynamicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* MoDNDynamic */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-MoDNDynamic-MoDNDynamicTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MoDNDynamicTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.modn.dynamic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoDNDynamic.app/MoDNDynamic";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-MoDNDynamic-MoDNDynamicTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "MoDNDynamicTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.modn.dynamic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoDNDynamic.app/MoDNDynamic";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-MoDNDynamic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "MoDNDynamic/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MoDN Dynamic";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.modn.dynamic";
+				PRODUCT_NAME = "MoDNDynamic";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-MoDNDynamic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "MoDNDynamic/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MoDN Dynamic";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.modn.dynamic";
+				PRODUCT_NAME = "MoDNDynamic";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoDNDynamicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoDNDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MoDNDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

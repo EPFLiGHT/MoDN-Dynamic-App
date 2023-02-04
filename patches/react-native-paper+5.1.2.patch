@@ -1,0 +1,36 @@
+diff --git a/node_modules/react-native-paper/lib/typescript/components/BottomNavigation/BottomNavigation.d.ts b/node_modules/react-native-paper/lib/typescript/components/BottomNavigation/BottomNavigation.d.ts
+index c7ca687..2fb7977 100644
+--- a/node_modules/react-native-paper/lib/typescript/components/BottomNavigation/BottomNavigation.d.ts
++++ b/node_modules/react-native-paper/lib/typescript/components/BottomNavigation/BottomNavigation.d.ts
+@@ -252,6 +252,9 @@ declare const _default: React.ComponentType<Pick<Props, "style" | "testID" | "co
+     theme?: import("@callstack/react-theme-provider").$DeepPartial<unknown> | undefined;
+ }> & import("@callstack/react-theme-provider/typings/hoist-non-react-statics").NonReactStatics<React.ComponentType<Props> & {
+     ({ navigationState, renderScene, renderIcon, renderLabel, renderTouchable, getLabelText, getBadge, getColor, getAccessibilityLabel, getTestID, activeColor, inactiveColor, keyboardHidesNavigationBar, barStyle, labeled, style, theme, sceneAnimationEnabled, sceneAnimationType, sceneAnimationEasing, onTabPress, onIndexChange, shifting, safeAreaInsets, labelMaxFontSizeMultiplier, compact, testID, getLazy, }: Props): JSX.Element;
++
++    Touchable: React.ComponentType<TouchableProps>;
++    
+     /**
+      * Function which takes a map of route keys to components.
+      * Pure components are used to minimize re-rendering of the pages.
+diff --git a/node_modules/react-native-paper/src/components/BottomNavigation/BottomNavigation.tsx b/node_modules/react-native-paper/src/components/BottomNavigation/BottomNavigation.tsx
+index b3c1071..92b236e 100644
+--- a/node_modules/react-native-paper/src/components/BottomNavigation/BottomNavigation.tsx
++++ b/node_modules/react-native-paper/src/components/BottomNavigation/BottomNavigation.tsx
+@@ -273,7 +273,7 @@ const BAR_HEIGHT = 56;
+ const FAR_FAR_AWAY = Platform.OS === 'web' ? 0 : 9999;
+ const OUTLINE_WIDTH = 64;
+ 
+-const Touchable = ({
++export const Touchable = ({
+   route: _0,
+   style,
+   children,
+@@ -1101,6 +1101,8 @@ const BottomNavigation = ({
+   );
+ };
+ 
++BottomNavigation.Touchable = Touchable;
++
+ /**
+  * Function which takes a map of route keys to components.
+  * Pure components are used to minimize re-rendering of the pages.
